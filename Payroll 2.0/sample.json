@@ -1,0 +1,3733 @@
+{
+    "payments": [
+        {
+            "id": "r1E2uY1146eicjQmSRUiFSvvuaB",
+            "created_at": "2022-06-11T06:00:00.034Z",
+            "amount_money": {
+                "amount": 39558,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CASH",
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "wiknIO8rq4loNLToE3kjfQheV",
+            "total_money": {
+                "amount": 39558,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "cash_details": {
+                "buyer_supplied_money": {
+                    "amount": 39558,
+                    "currency": "USD"
+                },
+                "change_back_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                }
+            },
+            "receipt_number": "r1E2",
+            "receipt_url": "https://squareup.com/receipt/preview/r1E2uY1146eicjQmSRUiFSvvuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "k4cb4Rte9HRzN3WqR7A8Gyebj3vvCFMo7kmvT0zVVuO6o"
+        },
+        {
+            "id": "ZAETHsW6aPxLEequEwSZoC3AuaB",
+            "created_at": "2022-06-11T05:46:07.924Z",
+            "updated_at": "2022-06-11T06:40:13.318Z",
+            "amount_money": {
+                "amount": 15347,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "4505",
+                    "exp_month": 5,
+                    "exp_year": 2027,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-7QB83YtxLurzEW4Y51le_kQHKmglwBEa_KcQ2VxEB9SFrI14dufMkBo-n8FXHBsh0w",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "08242D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "1daeb356f4905222",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:46:08.262Z",
+                    "captured_at": "2022-06-11T06:40:12.416Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "aXSymcVjGdSpN8UGrVJwLOxeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 409,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 15347,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 15347,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "ZAET",
+            "receipt_url": "https://squareup.com/receipt/preview/ZAETHsW6aPxLEequEwSZoC3AuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "mOJm2jZGU1pf7QKNrpvicjmwqsf8CNYngsM0nTZ9mgq6o"
+        },
+        {
+            "id": "DPjKqUkmfcPKyjB6OkKDe3RfuaB",
+            "created_at": "2022-06-11T05:21:31.611Z",
+            "updated_at": "2022-06-11T06:40:13.962Z",
+            "amount_money": {
+                "amount": 13627,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "6876",
+                    "exp_month": 7,
+                    "exp_year": 2025,
+                    "cardholder_name": "HUDA/NADIA ",
+                    "fingerprint": "sq-1-7fmOTA3avJE_f0SKJt1RJpOVgzWpCfkJty-gG2S1EelDaDfODw4QLJO_JpRpEU546Q",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "03953C",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "ac2672a07a2f6fd8",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:21:32.078Z",
+                    "captured_at": "2022-06-11T06:40:12.646Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ujJRCR3SU7OBtUsZGhCKhsjeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 364,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 13627,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13627,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "DPjK",
+            "receipt_url": "https://squareup.com/receipt/preview/DPjKqUkmfcPKyjB6OkKDe3RfuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "rcWpooyDkTI5AVha3wT3DsLHgZW1QLNmpDrwxYoZ4Wi6o"
+        },
+        {
+            "id": "NSuwsb2xELJwufx5L8hwppk8vaB",
+            "created_at": "2022-06-11T05:21:13.079Z",
+            "updated_at": "2022-06-11T06:40:13.941Z",
+            "amount_money": {
+                "amount": 13627,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "7107",
+                    "exp_month": 10,
+                    "exp_year": 2023,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-vea0uc1ZHFH0QRBJ0qCw0uWnCZdiOcws-ipl6PbmA46wjBSq2ixKh7vrcfQtgW1K-A",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "434258"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "024255",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA DEBIT",
+                "application_cryptogram": "b6dc8936733ff3db",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:21:13.673Z",
+                    "captured_at": "2022-06-11T06:40:12.407Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ujJRCR3SU7OBtUsZGhCKhsjeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 364,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 13627,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13627,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "NSuw",
+            "receipt_url": "https://squareup.com/receipt/preview/NSuwsb2xELJwufx5L8hwppk8vaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "hyNQQQ1u04gc8qqYkFuIuRsh7jh4BHyuzXrjJNwlBDS6o"
+        },
+        {
+            "id": "1eEJ8WJl1qg26Ejq0TYKRpk5taB",
+            "created_at": "2022-06-11T05:13:55.820Z",
+            "updated_at": "2022-06-11T06:40:13.956Z",
+            "amount_money": {
+                "amount": 11775,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "DISCOVER",
+                    "last_4": "0905",
+                    "exp_month": 7,
+                    "exp_year": 2024,
+                    "cardholder_name": "MISHRA/RUCHIKA            ",
+                    "fingerprint": "sq-1-Z5gL444_p--pGAMIu1bDofBi5mct8zzQuwONnXGaBFleEVfUDDdVVCrGNmsUV_lMug",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "601100"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "01112R",
+                "application_identifier": "A0000001523010",
+                "application_name": "Discover Credit",
+                "application_cryptogram": "ea1825b59bfd824a",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:13:56.204Z",
+                    "captured_at": "2022-06-11T06:40:12.627Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "go3H5oM2a9K5sOcDrmJgwmmeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 316,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 11775,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 11775,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "1eEJ",
+            "receipt_url": "https://squareup.com/receipt/preview/1eEJ8WJl1qg26Ejq0TYKRpk5taB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "SE3KOwhH7Kprt0DxDiHSkMYM1eDqsnLlGI3svTDnzcb6o"
+        },
+        {
+            "id": "d4jr6eBaqatfGBrUZ1LlGOKovaB",
+            "created_at": "2022-06-11T05:07:52.178Z",
+            "updated_at": "2022-06-11T06:40:13.112Z",
+            "amount_money": {
+                "amount": 18257,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "5156",
+                    "exp_month": 8,
+                    "exp_year": 2024,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-MKry-UkOE8FYKPJYpU9cSDr4R-QMMXygsv_U4Qd8iVexGKHDgUx-jVDtFBdG3fy0oA",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414734"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "02852D",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA CREDIT",
+                "application_cryptogram": "b4347dfc04dc9e02",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:07:52.561Z",
+                    "captured_at": "2022-06-11T06:40:12.877Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "IY9XbmKNOPkWstXb4hxFOb7eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 485,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 18257,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 18257,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "d4jr",
+            "receipt_url": "https://squareup.com/receipt/preview/d4jr6eBaqatfGBrUZ1LlGOKovaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "G0k94hJzZ205qp8UPqmXNMjcVDeqP0yoM16jU4incSN6o"
+        },
+        {
+            "id": "pUKtQY1QStzYw1lQ6Rhs0Xy3uaB",
+            "created_at": "2022-06-11T05:06:14.353Z",
+            "updated_at": "2022-06-11T06:40:13.960Z",
+            "amount_money": {
+                "amount": 6453,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "AMERICAN_EXPRESS",
+                    "last_4": "2004",
+                    "exp_month": 4,
+                    "exp_year": 2027,
+                    "cardholder_name": "VALUED CUSTOMER           ",
+                    "fingerprint": "sq-1-Po6IhPk1-JRvy44x-MN4N7Fe6_HdVrvncDlgnes2RaDVHTjLtMhym7g0L1xUmBopUw",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "372657"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "804104",
+                "application_identifier": "A000000025010801",
+                "application_name": "AMERICAN EXPRESS",
+                "application_cryptogram": "59c0847a0ee669eb",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:06:14.748Z",
+                    "captured_at": "2022-06-11T06:40:12.957Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "CHqfMH1BmOK5Ioz3nZj3u8eeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 178,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 6453,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6453,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "pUKt",
+            "receipt_url": "https://squareup.com/receipt/preview/pUKtQY1QStzYw1lQ6Rhs0Xy3uaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "C2L4taUAfQvFJan1EWohh9F5db4kWQvk2vKW49joJMC6o"
+        },
+        {
+            "id": "hsyQ1zkeK1tkJIUslCvkAh27taB",
+            "created_at": "2022-06-11T05:06:08.926Z",
+            "updated_at": "2022-06-11T06:40:14.365Z",
+            "amount_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "AMERICAN_EXPRESS",
+                    "last_4": "1001",
+                    "exp_month": 4,
+                    "exp_year": 2027,
+                    "cardholder_name": "VALUED CUSTOMER           ",
+                    "fingerprint": "sq-1-40u29edJIJD4Rk0OKGYaR8BKo35w7yzzMEKbnAR_OmClh1XLgdwZ90OUleUPuNfQkg",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "373965"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "827600",
+                "application_identifier": "A000000025010801",
+                "application_name": "AMERICAN EXPRESS",
+                "application_cryptogram": "2a55a371180a4ae0",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:06:09.345Z",
+                    "captured_at": "2022-06-11T06:40:12.637Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "CHqfMH1BmOK5Ioz3nZj3u8eeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 178,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "hsyQ",
+            "receipt_url": "https://squareup.com/receipt/preview/hsyQ1zkeK1tkJIUslCvkAh27taB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "knYOOzfyR7XBhV0sBf95ybCfO2MdlyKBnCKvVGhCLD85o"
+        },
+        {
+            "id": "3TSHiaB6mMCSuTnK4DGVdB7dvaB",
+            "created_at": "2022-06-11T05:06:00.595Z",
+            "updated_at": "2022-06-11T06:40:13.901Z",
+            "amount_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "7583",
+                    "exp_month": 6,
+                    "exp_year": 2025,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-skCxT-GACm3I9Sco2InYydhBDQVMorgW7hjsyAWJaknjgu2daF4O4XVQLBN-_MUgfg",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414740"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "08023D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "6217b5e65b46e0b9",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:06:00.926Z",
+                    "captured_at": "2022-06-11T06:40:12.923Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "CHqfMH1BmOK5Ioz3nZj3u8eeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 178,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "3TSH",
+            "receipt_url": "https://squareup.com/receipt/preview/3TSHiaB6mMCSuTnK4DGVdB7dvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "B0sRld5RsPgDpuv15dTDJxsnxXA4ksUvbupVsKYb6H45o"
+        },
+        {
+            "id": "FEde4ir19LxLsC5Zi1vMI1BPvaB",
+            "created_at": "2022-06-11T05:05:56.420Z",
+            "updated_at": "2022-06-11T06:40:14.967Z",
+            "amount_money": {
+                "amount": 13891,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "8772",
+                    "exp_month": 12,
+                    "exp_year": 2023,
+                    "fingerprint": "sq-1-G0XRMIpz2lib9gfu9OlVg7C7pwlUGLZWvBj-YrUIi4lbYNBVp2RuARmrs8Pnz-R8pQ",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "476895"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "06698D",
+                "application_identifier": "A0000000031010",
+                "application_cryptogram": "1f426bb6818712a2",
+                "verification_method": "ON_DEVICE",
+                "verification_results": "SUCCESS",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:05:56.886Z",
+                    "captured_at": "2022-06-11T06:40:12.935Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "aFtuhF6XpUyW4G9P7hUgEDgeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 371,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 13891,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13891,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "FEde",
+            "receipt_url": "https://squareup.com/receipt/preview/FEde4ir19LxLsC5Zi1vMI1BPvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "3yuu44CqMVEAB9c11jdF3xDLfVmlvwm6jIhTxOusHoQ6o"
+        },
+        {
+            "id": "f9jgzl02QwIQRd202UKDKF0jvaB",
+            "created_at": "2022-06-11T05:05:56.080Z",
+            "updated_at": "2022-06-11T06:40:13.836Z",
+            "amount_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "AMERICAN_EXPRESS",
+                    "last_4": "2003",
+                    "exp_month": 2,
+                    "exp_year": 2027,
+                    "cardholder_name": "VALUED CUSTOMER           ",
+                    "fingerprint": "sq-1-JlUGjtphpMPzj8DaLdiP079WEVFJyjB5mvsBwgCISYo_BQenMh03pkjqa3NjWrh3Fg",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "372657"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "841617",
+                "application_identifier": "A000000025010801",
+                "application_name": "AMERICAN EXPRESS",
+                "application_cryptogram": "8400efdc9545d327",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:05:56.624Z",
+                    "captured_at": "2022-06-11T06:40:12.738Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "CHqfMH1BmOK5Ioz3nZj3u8eeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 178,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "f9jg",
+            "receipt_url": "https://squareup.com/receipt/preview/f9jgzl02QwIQRd202UKDKF0jvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "7ABx4tSY6kkWDXNkhbFUKP6zH6TLRUoTBJzsnxiqQxV6o"
+        },
+        {
+            "id": "LvFE2oTNJIOfVHVeeYHvaWwTuaB",
+            "created_at": "2022-06-11T05:05:50.278Z",
+            "updated_at": "2022-06-11T06:40:13.723Z",
+            "amount_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "MASTERCARD",
+                    "last_4": "9155",
+                    "exp_month": 10,
+                    "exp_year": 2026,
+                    "fingerprint": "sq-1-4z8t3tKKaX6nOpnjTPpBibJeFwTTpJGRK8i41232Ynoaem_CLBaJE0DJzKXJP680eA",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "521307"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "06515Z",
+                "application_identifier": "A0000000041010",
+                "application_name": "CHASE MASTERCARD",
+                "application_cryptogram": "502de79c0d8b2a3d",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:05:50.674Z",
+                    "captured_at": "2022-06-11T06:40:12.964Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "CHqfMH1BmOK5Ioz3nZj3u8eeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 178,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6457,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "LvFE",
+            "receipt_url": "https://squareup.com/receipt/preview/LvFE2oTNJIOfVHVeeYHvaWwTuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "CaQ8zIVmh9uavc1XJ1SAAsAVnfyXGEC210QoktnZc2I6o"
+        },
+        {
+            "id": "lkvlnbM75bDbtNMC1BriPVPRuaB",
+            "created_at": "2022-06-11T05:05:32.153Z",
+            "updated_at": "2022-06-11T06:40:14.988Z",
+            "amount_money": {
+                "amount": 13892,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "0908",
+                    "exp_month": 5,
+                    "exp_year": 2027,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-s4PVb4Wd42-nAUmzc7X5Hl7zgAWuEbPRnS3vcgsQ8le8FSBN7PhD0Ccqo-vh2hPp9g",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "438857"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "05969D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "ce7f2e618def7995",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T05:05:32.505Z",
+                    "captured_at": "2022-06-11T06:40:12.981Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "aFtuhF6XpUyW4G9P7hUgEDgeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 371,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 13892,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13892,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "lkvl",
+            "receipt_url": "https://squareup.com/receipt/preview/lkvlnbM75bDbtNMC1BriPVPRuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "KraBjfcgXRt5hAKv8Y1F6AbwGKeGRCHoLqTnehztqoO6o"
+        },
+        {
+            "id": "rxS0PLLeMQKtrLJokQEbc4DMuaB",
+            "created_at": "2022-06-11T04:56:01.605Z",
+            "updated_at": "2022-06-11T06:40:13.860Z",
+            "amount_money": {
+                "amount": 14025,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "7737",
+                    "exp_month": 4,
+                    "exp_year": 2026,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-fq-2Lyqxe_xsBgKZlpkWIPJbpWwMuMMk8Z81sxyXV17PGPg4fKpnarYJxvTD5QSOMQ",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "424631"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "08051G",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "03410a333b612c83",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:56:01.842Z",
+                    "captured_at": "2022-06-11T06:40:12.929Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "w6EJqbBZPMlzMPpuoDPIlo1eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 375,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 14025,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 14025,
+                "currency": "USD"
+            },
+            "employee_id": "TMoLHZGmlPQIbOdT",
+            "receipt_number": "rxS0",
+            "receipt_url": "https://squareup.com/receipt/preview/rxS0PLLeMQKtrLJokQEbc4DMuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMoLHZGmlPQIbOdT",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "MQcVZb7DYWM7dJsT4caiEptmmIeTY8uxhb5oykd6JHh6o"
+        },
+        {
+            "id": "fXGzHxA5hJ6y3gKKLDeRxJdAvaB",
+            "created_at": "2022-06-11T04:52:36.534Z",
+            "updated_at": "2022-06-11T06:40:13.127Z",
+            "amount_money": {
+                "amount": 21565,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "8456",
+                    "exp_month": 4,
+                    "exp_year": 2027,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-0uMJEaGee95upB2u534Z-MvMqhu5I6zhhbqfwVGIMt3ltWCNjrsCfl-30GfariVUuA",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "429161"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "07100C",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "721dfb5c40b98e16",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:52:36.767Z",
+                    "captured_at": "2022-06-11T06:40:11.681Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ulinlOKp1e7Ha88sBHSz6CkeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 571,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 21565,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 21565,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "fXGz",
+            "receipt_url": "https://squareup.com/receipt/preview/fXGzHxA5hJ6y3gKKLDeRxJdAvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "glYJE6S7PyXwuDTS4yRrjrmdeJs1T7pexqcRzjETRfM6o"
+        },
+        {
+            "id": "bfHBLpnCU6NI2bfZHARGUQnkvaB",
+            "created_at": "2022-06-11T04:42:03.794Z",
+            "updated_at": "2022-06-11T06:40:13.946Z",
+            "amount_money": {
+                "amount": 21433,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "3941",
+                    "exp_month": 10,
+                    "exp_year": 2026,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-GmIWL9aps2WhXSHHX3ROatP-hhju1Uw223gdGCelxjVEeqNI_ZnFPgV1_rX3o_YvnA",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "06119C",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "223e4ba3b37a34e5",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:42:04.187Z",
+                    "captured_at": "2022-06-11T06:40:12.868Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "CNJjXZaCb9xYE9uWOi7MXpueV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 567,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 21433,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 21433,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "bfHB",
+            "receipt_url": "https://squareup.com/receipt/preview/bfHBLpnCU6NI2bfZHARGUQnkvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "Ux7OaQ2sZlgKpu3Rb8nmYJzQtVxs7hVbwAeoJAwmMHO6o"
+        },
+        {
+            "id": "RSj5Jac7slTjvsCc21krkEqquaB",
+            "created_at": "2022-06-11T04:32:29.550Z",
+            "updated_at": "2022-06-11T06:40:14.977Z",
+            "amount_money": {
+                "amount": 37706,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 2000,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "2775",
+                    "exp_month": 8,
+                    "exp_year": 2026,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-vZbl3kfdwd6qbGOWb4YKR2fjsNj-ka2XO61dnd-I_vjdmW9UHr5NJ-5abLbjBi1HJA",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414740"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "06892D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "5570eff5f02dfaf3",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:32:29.880Z",
+                    "captured_at": "2022-06-11T06:40:12.973Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "KFLPNq0JadedKo64hFtNywteV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 1042,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 39706,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 37706,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "RSj5",
+            "receipt_url": "https://squareup.com/receipt/preview/RSj5Jac7slTjvsCc21krkEqquaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "aLJk4lQRknTP8IUMLqaTw6K5IRDcfDeqYb7LXz0i9vK6o"
+        },
+        {
+            "id": "f1vYLxUTK33pxmWQPGz2n5FlvaB",
+            "created_at": "2022-06-11T04:18:35.768Z",
+            "updated_at": "2022-06-11T06:40:13.940Z",
+            "amount_money": {
+                "amount": 11642,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 1358,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "MASTERCARD",
+                    "last_4": "4291",
+                    "exp_month": 4,
+                    "exp_year": 2026,
+                    "fingerprint": "sq-1-H-rCgD2W3O6W2FPwFItgS2GgW7Z2cg1s7KVKOOqKAbVvGJSyRCmsjmH9S6Pqhf-tQw",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "523782"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "05084Z",
+                "application_identifier": "A0000000041010",
+                "application_name": "MASTERCARD",
+                "application_cryptogram": "05281b9ec25d2a6d",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:18:36.307Z",
+                    "captured_at": "2022-06-11T06:40:12.861Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ulAKZT2X1btN6NYATKovRsteV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 348,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 13000,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 11642,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "f1vY",
+            "receipt_url": "https://squareup.com/receipt/preview/f1vYLxUTK33pxmWQPGz2n5FlvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "tXVNLHquWNIEqnLYGyPfjrkYldUSMkqw5RozBE8nzYe6o"
+        },
+        {
+            "id": "5kAuAUynCTbZNCWJ4I8v54lXvaB",
+            "created_at": "2022-06-11T04:16:09.271Z",
+            "updated_at": "2022-06-11T06:40:13.709Z",
+            "amount_money": {
+                "amount": 12965,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "4195",
+                    "exp_month": 5,
+                    "exp_year": 2026,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-FiFKzeF-tJsgl4kYnnl34saMkZ7t2MoVrIFzFBxwYSVlDLnLM-wclfpCXliZRZCM5g",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414734"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "07051D",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA CREDIT",
+                "application_cryptogram": "759c8628ae0fc6d0",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:16:09.683Z",
+                    "captured_at": "2022-06-11T06:40:12.677Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ebFb6SD2MFjpGtFe8HMIac3eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 347,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 12965,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 12965,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "5kAu",
+            "receipt_url": "https://squareup.com/receipt/preview/5kAuAUynCTbZNCWJ4I8v54lXvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "ApMynUghHHPcJd7zAVl1TyLh30SAiq2bhbR0YjkoNGZ6o"
+        },
+        {
+            "id": "LVyHxwPjMMzdVbC1UiYye46FuaB",
+            "created_at": "2022-06-11T04:11:44.899Z",
+            "updated_at": "2022-06-11T06:40:13.763Z",
+            "amount_money": {
+                "amount": 8203,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 1600,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "MASTERCARD",
+                    "last_4": "3467",
+                    "exp_month": 12,
+                    "exp_year": 2025,
+                    "cardholder_name": "FERRER/DYLAN              ",
+                    "fingerprint": "sq-1-WYF4VDJcyozI1snCS2ytxU9lrMpiwABRsmUn6T_CkmB0Qjb7NN27syF6FnYc84mPHA",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "529099"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "092360",
+                "application_identifier": "A0000000041010",
+                "application_name": "Mastercard Debit",
+                "application_cryptogram": "472ba0b54008df08",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:11:48.632Z",
+                    "captured_at": "2022-06-11T06:40:12.358Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "IcTJ3Y5PJ049XBb7nUsj9r4eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 265,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 9803,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 8203,
+                "currency": "USD"
+            },
+            "employee_id": "TMeArSHG5EvHb4vd",
+            "receipt_number": "LVyH",
+            "receipt_url": "https://squareup.com/receipt/preview/LVyHxwPjMMzdVbC1UiYye46FuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMeArSHG5EvHb4vd",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "2I1H4vVBpGw1egxAu1pswrA8xq24XBaXbtdMeQBE2nt6o"
+        },
+        {
+            "id": "pOR6KVMu7kua7m8TagGGpDszvaB",
+            "created_at": "2022-06-11T04:03:01.196Z",
+            "updated_at": "2022-06-11T06:40:13.918Z",
+            "amount_money": {
+                "amount": 16141,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "8765",
+                    "exp_month": 3,
+                    "exp_year": 2027,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-80VDge752eEszw6ScQJ3L6JyZz6HYo6livwYgYvgWaJVqIMruORp3lWqw6mb7eR4Cw",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "09040I",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "b8069bd4baf9f867",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:03:01.453Z",
+                    "captured_at": "2022-06-11T06:40:12.256Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "AKyu4qCBRpgb4pBPM81oW9geV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 430,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 16141,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 16141,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "pOR6",
+            "receipt_url": "https://squareup.com/receipt/preview/pOR6KVMu7kua7m8TagGGpDszvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "Wg9dsQOzHnZCaaKIVy6UvFdydx7J2XNrIR5JGEoYB4A6o"
+        },
+        {
+            "id": "JKLWnZBnRXPDsDoXTIpsPvUYvaB",
+            "created_at": "2022-06-11T04:00:15.437Z",
+            "updated_at": "2022-06-11T06:40:14.881Z",
+            "amount_money": {
+                "amount": 12701,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "AMERICAN_EXPRESS",
+                    "last_4": "1004",
+                    "exp_month": 11,
+                    "exp_year": 2024,
+                    "cardholder_name": "VALUED CUSTOMER           ",
+                    "fingerprint": "sq-1-Y1nZY_aZpL4eTAlkPzlf5bJd7hp41hFpz93WSLCNht-zCWpLs61eku7n0LzVSyqF5w",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "379287"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "870876",
+                "application_identifier": "A000000025010801",
+                "application_name": "AMERICAN EXPRESS",
+                "application_cryptogram": "d5a355d186dcece7",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T04:00:15.867Z",
+                    "captured_at": "2022-06-11T06:40:12.942Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ydJz2diGIC1sidLh4YVxgt1eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 340,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 12701,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 12701,
+                "currency": "USD"
+            },
+            "employee_id": "TMoLHZGmlPQIbOdT",
+            "receipt_number": "JKLW",
+            "receipt_url": "https://squareup.com/receipt/preview/JKLWnZBnRXPDsDoXTIpsPvUYvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMoLHZGmlPQIbOdT",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "nHEkGYoIUp8kuDJTe8DUvqR52SWkjZru8pKaFBo5rvv6o"
+        },
+        {
+            "id": "9UrSjRVtbr0jB3CgyboJOEK7vaB",
+            "created_at": "2022-06-11T03:56:52.151Z",
+            "updated_at": "2022-06-11T06:40:14.986Z",
+            "amount_money": {
+                "amount": 17993,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "9346",
+                    "exp_month": 9,
+                    "exp_year": 2026,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-ZKNlPHEuXgfzznQdRivrKj3m6J7Qh5brrMlaQWguw7QmtMH15adKp9f-duGHB4MAAw",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "464018"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "09569D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "0ea7c4bda5e23ce5",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:56:52.525Z",
+                    "captured_at": "2022-06-11T06:40:12.921Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "axJXquveEl3rXzXHYD6c872eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 478,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 17993,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 17993,
+                "currency": "USD"
+            },
+            "employee_id": "TMoLHZGmlPQIbOdT",
+            "receipt_number": "9UrS",
+            "receipt_url": "https://squareup.com/receipt/preview/9UrSjRVtbr0jB3CgyboJOEK7vaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMoLHZGmlPQIbOdT",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "fvzWXgNndScH3HuX44IYSnGGQNAadvBaYEGXyBxAs9D6o"
+        },
+        {
+            "id": "hIafy7JLXyb8nqUy708I7CSSvaB",
+            "created_at": "2022-06-11T03:55:49.707Z",
+            "updated_at": "2022-06-11T06:40:13.716Z",
+            "amount_money": {
+                "amount": 19580,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "8848",
+                    "exp_month": 6,
+                    "exp_year": 2023,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-WC-HiYStuFrT19HlKCSJT-FUmVXQMjzWyOl4mg32SB5kX-QrltFrYb3U9vnjhjvGwQ",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "410039"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "15990D",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA CREDIT",
+                "application_cryptogram": "6bac3cb7e5a07e23",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:55:49.985Z",
+                    "captured_at": "2022-06-11T06:40:12.727Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ouiG6SUuCZLTPu0Q8MKNmnoeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 545,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 20580,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 19580,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "hIaf",
+            "receipt_url": "https://squareup.com/receipt/preview/hIafy7JLXyb8nqUy708I7CSSvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "2kwvWzeWkAM6VFBx5zOag6vpR0uAGvTKpuSBk04G1LL6o"
+        },
+        {
+            "id": "DPxLDaE0UgXMNanoLBuMWtCOuaB",
+            "created_at": "2022-06-11T03:55:24.301Z",
+            "updated_at": "2022-06-11T06:40:13.968Z",
+            "amount_money": {
+                "amount": 11246,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "3245",
+                    "exp_month": 11,
+                    "exp_year": 2026,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-cnGW3aEQkhNPpYeMUM1wk2_nOyyWAXcz5uCL1KazUHN5HtEarIhD2iBJv1_7uOi2eQ",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "05732D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "364d333620a37c6a",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:55:24.536Z",
+                    "captured_at": "2022-06-11T06:40:12.306Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "ChF0FyotW9AE7BwHbtwMK1zeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 302,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 11246,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 11246,
+                "currency": "USD"
+            },
+            "employee_id": "TMeArSHG5EvHb4vd",
+            "receipt_number": "DPxL",
+            "receipt_url": "https://squareup.com/receipt/preview/DPxLDaE0UgXMNanoLBuMWtCOuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMeArSHG5EvHb4vd",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "EGddWYN2qqKHjPz46dz0AjO867B5teMuch4D6WyCupe6o"
+        },
+        {
+            "id": "7jTwcMLd7IVKlO54IR2RbgHeuaB",
+            "created_at": "2022-06-11T03:52:11.889Z",
+            "updated_at": "2022-06-11T06:40:14.981Z",
+            "amount_money": {
+                "amount": 40616,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "2803",
+                    "exp_month": 4,
+                    "exp_year": 2024,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-BlC6FSQ4gR3v9MIrT67eWCi3PoasTfs9BSEW4OKjQNHnJbECuN-6B3EuKQE8H1c6jg",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "485620"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "010565",
+                "application_identifier": "A0000000031010",
+                "application_name": "Visa Credit",
+                "application_cryptogram": "1e1716b6b1bcb155",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:52:12.320Z",
+                    "captured_at": "2022-06-11T06:40:13.212Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "Wnxt2cROBFFS6KmIyPppHnheV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:13.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 1066,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 40616,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 40616,
+                "currency": "USD"
+            },
+            "employee_id": "TMoLHZGmlPQIbOdT",
+            "receipt_number": "7jTw",
+            "receipt_url": "https://squareup.com/receipt/preview/7jTwcMLd7IVKlO54IR2RbgHeuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMoLHZGmlPQIbOdT",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "bT8WRJAWNMumexBy6JDSO6a7ApRPgZhpxDVgr6o9oy45o"
+        },
+        {
+            "id": "HLQy4X6DnC1ak3k0C6m9g5ihvaB",
+            "created_at": "2022-06-11T03:51:51.461Z",
+            "updated_at": "2022-06-11T06:40:13.932Z",
+            "amount_money": {
+                "amount": 8335,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "MASTERCARD",
+                    "last_4": "9949",
+                    "exp_month": 9,
+                    "exp_year": 2024,
+                    "cardholder_name": "HANDZIAK/BENJAMIN",
+                    "fingerprint": "sq-1-w_Y_rR41H-jYOmTiUdp7PlfBTpiolOa0V1cFleVUeO2ODOGTRchnT0K4TWSwSove6Q",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "544448"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "686721",
+                "application_identifier": "A0000000041010",
+                "application_name": "Debit MasterCard",
+                "application_cryptogram": "926f3670791ac3a8",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:51:52.464Z",
+                    "captured_at": "2022-06-11T06:40:12.835Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "sAgtK3CphtYfRT2UZTTdLSieV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 227,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 8335,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 8335,
+                "currency": "USD"
+            },
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "receipt_number": "HLQy",
+            "receipt_url": "https://squareup.com/receipt/preview/HLQy4X6DnC1ak3k0C6m9g5ihvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMx9puDzpUTBwg-2",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "9kTqETsSaIM0jldCylXPMMKGa0wyOmLsr0CCkBjEtt35o"
+        },
+        {
+            "id": "tYDpQiSQiOFgHeq3uuEw2snBwaB",
+            "created_at": "2022-06-11T03:18:55.679Z",
+            "amount_money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CASH",
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "GFIp55oTlJkHopwAN1psnOleV",
+            "total_money": {
+                "amount": 0,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "cash_details": {
+                "buyer_supplied_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                },
+                "change_back_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                }
+            },
+            "receipt_number": "tYDp",
+            "receipt_url": "https://squareup.com/receipt/preview/tYDpQiSQiOFgHeq3uuEw2snBwaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "t91le3nvfL6pWgqycsJT9I8xFcCpglJ3k90OL2LJX2B6o"
+        },
+        {
+            "id": "7xiwMnUYecymWOjzHGyuIBHKvaB",
+            "created_at": "2022-06-11T03:09:55.761Z",
+            "updated_at": "2022-06-11T06:40:13.949Z",
+            "amount_money": {
+                "amount": 29106,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "3865",
+                    "exp_month": 1,
+                    "exp_year": 2027,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-KB_wPyqBNpdUXZ2WpImhyPDP3Z8PLAilP7eINvRUs32_QpbRCzE9erQ4CBzr4D_9yQ",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "438857"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "08676D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "47753b30044e8e93",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:09:55.986Z",
+                    "captured_at": "2022-06-11T06:40:12.011Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "MuDP8Q4VhElslP2XpZjPKtweV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 767,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 29106,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 29106,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "7xiw",
+            "receipt_url": "https://squareup.com/receipt/preview/7xiwMnUYecymWOjzHGyuIBHKvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "naj1IqQCNbDRUSIqJ9iRk0oQXq6kSGPbV4TxpVvaCx75o"
+        },
+        {
+            "id": "J4YfcU7OxBKXOtJwfhaqfPYiuaB",
+            "created_at": "2022-06-11T03:04:45.988Z",
+            "updated_at": "2022-06-11T06:40:12.663Z",
+            "amount_money": {
+                "amount": 13759,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 2041,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "6590",
+                    "exp_month": 5,
+                    "exp_year": 2024,
+                    "cardholder_name": "PASRICHA/VAIBHAV ",
+                    "fingerprint": "sq-1-ffyypJ-rO4zdYpW_fInaUW82YQSWLFn0BPUlNODrr_5s7jRpLFRGCbwHRpxdZvb1Mw",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "440066"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "00270D",
+                "application_identifier": "A0000000031010",
+                "application_name": "Visa Credit",
+                "application_cryptogram": "f65e69371fbdfaa3",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:04:46.310Z",
+                    "captured_at": "2022-06-11T06:40:11.856Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "SDaKofa6WaZPf3933OUMetpeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 421,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 15800,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13759,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "J4Yf",
+            "receipt_url": "https://squareup.com/receipt/preview/J4YfcU7OxBKXOtJwfhaqfPYiuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "ULJmVdy0kq3YDkAVzfEboEv2urMKvU2GONZIwAdrckE6o"
+        },
+        {
+            "id": "5ko8lS9umb7sAVfcxmpPr63fvaB",
+            "created_at": "2022-06-11T03:01:12.537Z",
+            "updated_at": "2022-06-11T06:40:13.942Z",
+            "amount_money": {
+                "amount": 13164,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 2000,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "2397",
+                    "exp_month": 4,
+                    "exp_year": 2026,
+                    "cardholder_name": "SIMPSON/CAROLINE C",
+                    "fingerprint": "sq-1-W5MQOfJiwXwYUvM6RvexiBKyT_512F26-84DblpxB3h40MePVQm_ur7CckPEI62FAg",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "426629"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "000113",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA DEBIT",
+                "application_cryptogram": "e7604b32d204e841",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:01:13.269Z",
+                    "captured_at": "2022-06-11T06:40:11.391Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "MGlaYwz3CxapDayEaVMh9boeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 404,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 15164,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13164,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "5ko8",
+            "receipt_url": "https://squareup.com/receipt/preview/5ko8lS9umb7sAVfcxmpPr63fvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "jO1vQYvHzKr1DOPLVWnLjAFpQJ480n2Qro7kNnTPRqJ6o"
+        },
+        {
+            "id": "x6haRW9h6ZsnAVIK7nJUd3gIvaB",
+            "created_at": "2022-06-11T03:00:50.963Z",
+            "updated_at": "2022-06-11T06:40:13.951Z",
+            "amount_money": {
+                "amount": 13164,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 500,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "4689",
+                    "exp_month": 7,
+                    "exp_year": 2023,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-d2pFmEDdrIZwo96Rrvr2UVmOf1NVbzwnR5IEZrK8HSHQsbWhiCbhI-We52pYlnh-5A",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414734"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "07107D",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA CREDIT",
+                "application_cryptogram": "bfb982ec54d9fcf5",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T03:00:51.260Z",
+                    "captured_at": "2022-06-11T06:40:11.381Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "MGlaYwz3CxapDayEaVMh9boeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 365,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 13664,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13164,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "x6ha",
+            "receipt_url": "https://squareup.com/receipt/preview/x6haRW9h6ZsnAVIK7nJUd3gIvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "3I5tadsqevter9L6bmB85kqcoFoXp7jSa4KyFvF5dDp6o"
+        },
+        {
+            "id": "PrW8P3oO8cT8FFpLp6x4l3HJuaB",
+            "created_at": "2022-06-11T02:49:38.676Z",
+            "updated_at": "2022-06-11T06:40:13.993Z",
+            "amount_money": {
+                "amount": 13892,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 1300,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "7663",
+                    "exp_month": 7,
+                    "exp_year": 2026,
+                    "cardholder_name": "WADE OSLUND/JEREMY        ",
+                    "fingerprint": "sq-1-N6rXkDDCg-djIIFIkZITgTAkhHkql3dArKd4RU4sv0Mbb-miNjVVs-U81NOKj1b2QA",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "453506"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "H28898",
+                "application_identifier": "A0000000031010",
+                "application_name": "Visa Debit",
+                "application_cryptogram": "847575cae2de600f",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:49:39.177Z",
+                    "captured_at": "2022-06-11T06:40:11.628Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "YkRArSuYLWsKyAV0mqtOm7yeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 405,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 15192,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 13892,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "PrW8",
+            "receipt_url": "https://squareup.com/receipt/preview/PrW8P3oO8cT8FFpLp6x4l3HJuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "BXgQoiRMKUC56WfzSZFshkCSSTqlIOE9V6rpHrpjgwT6o"
+        },
+        {
+            "id": "7jfkJ3P9C3pHFwrlYYFn4INivaB",
+            "created_at": "2022-06-11T02:47:36.149Z",
+            "updated_at": "2022-06-11T06:40:13.956Z",
+            "amount_money": {
+                "amount": 23285,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "9777",
+                    "exp_month": 9,
+                    "exp_year": 2024,
+                    "cardholder_name": "CARDHOLDER/CHASE VISA",
+                    "fingerprint": "sq-1-2PWZl7tJFbEoRbimd8eErimKt5wzJuts7kjd4YAGEnELV2G4ayIFKDGnqmxXff3cHA",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "02091I",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "78e70b954b4a43c8",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:47:36.662Z",
+                    "captured_at": "2022-06-11T06:40:11.932Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "8suZ7MIk1WnE6abYUCI7iG5eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 615,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 23285,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 23285,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "7jfk",
+            "receipt_url": "https://squareup.com/receipt/preview/7jfkJ3P9C3pHFwrlYYFn4INivaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "rl8gGiMDBdWKzgik6lbRzgaV1Hok6wo1FpmbD94JsZd6o"
+        },
+        {
+            "id": "fvIEyViFspR4CXszLUbRTq3OvaB",
+            "created_at": "2022-06-11T02:47:19.069Z",
+            "updated_at": "2022-06-11T06:40:13.920Z",
+            "amount_money": {
+                "amount": 14553,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "9514",
+                    "exp_month": 4,
+                    "exp_year": 2023,
+                    "cardholder_name": "GAO/ZHIJIAO",
+                    "fingerprint": "sq-1-uHaSpZAEkxrDLtn0GGt2EkO-aGhclGvbaDqiWJ59vuheyQ8GnhsnJdq28iuGsONqnA",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "411777"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "134374",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA DEBIT",
+                "application_cryptogram": "8669a72c1c369181",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:47:19.926Z",
+                    "captured_at": "2022-06-11T06:40:11.834Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "giwhnIkLpzdNvUvU0BPYVHheV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 388,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 14553,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 14553,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "fvIE",
+            "receipt_url": "https://squareup.com/receipt/preview/fvIEyViFspR4CXszLUbRTq3OvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "0j5brh831r5nPO2HOcmHqbDZtWWkeju1QOrlbS1BXEs6o"
+        },
+        {
+            "id": "HfqENfCBBSKJ2J5wh9peNDpJuaB",
+            "created_at": "2022-06-11T02:44:40.568Z",
+            "updated_at": "2022-06-11T06:40:13.772Z",
+            "amount_money": {
+                "amount": 6482,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 517,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "2996",
+                    "exp_month": 11,
+                    "exp_year": 2023,
+                    "cardholder_name": "CARDHOLDER/CHASE VISA",
+                    "fingerprint": "sq-1-Jf3CxMJ0tJmCq_Y_eDvIdTZ5bVQWuauqR4zFtyW03yShLSKxzmPGJOSPijsfEMZgog",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "03221I",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "d778070c9c1b95be",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:44:40.844Z",
+                    "captured_at": "2022-06-11T06:40:11.674Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "UGtNbeNOLV8O8dFw6zRMYf1eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 192,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 6999,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6482,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "HfqE",
+            "receipt_url": "https://squareup.com/receipt/preview/HfqENfCBBSKJ2J5wh9peNDpJuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "MlThYwVdxBilvl8Z1ifH18SK3tGOkbPLRFs0xGyh4x35o"
+        },
+        {
+            "id": "x6lgTWFRWHqhCroptriBhMvVvaB",
+            "created_at": "2022-06-11T02:44:24.762Z",
+            "updated_at": "2022-06-11T06:40:13.186Z",
+            "amount_money": {
+                "amount": 6483,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 517,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "5843",
+                    "exp_month": 5,
+                    "exp_year": 2025,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-tzmmJiGoMQiWAB_8tTt3sPh3yUZjNxd_Zoykz93sPYxASjFhsyXcjBan7TNawl6lng",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "410039"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "79361D",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA CREDIT",
+                "application_cryptogram": "20fce6b2857e35bd",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:44:25.068Z",
+                    "captured_at": "2022-06-11T06:40:11.612Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "UGtNbeNOLV8O8dFw6zRMYf1eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 192,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6483,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "x6lg",
+            "receipt_url": "https://squareup.com/receipt/preview/x6lgTWFRWHqhCroptriBhMvVvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "SWERS2KSwBvmNjtrIX3Y2GhEeSCLZHKBGrE6KQ51pMz6o"
+        },
+        {
+            "id": "j7ztrWpi10CfCjMCXtPWLGw8taB",
+            "created_at": "2022-06-11T02:44:09.752Z",
+            "updated_at": "2022-06-11T06:40:13.951Z",
+            "amount_money": {
+                "amount": 41013,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 2000,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "MASTERCARD",
+                    "last_4": "9267",
+                    "exp_month": 1,
+                    "exp_year": 2024,
+                    "fingerprint": "sq-1-5V3ZyT6JIw324AFNwE10J8BcBtSblA9X2llSzROML56n6mktHREvWezpAafO_dc2Ww",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "552433"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "08905S",
+                "application_identifier": "A0000000041010",
+                "application_name": "Mastercard",
+                "application_cryptogram": "ca69d098f47226b6",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:44:10.165Z",
+                    "captured_at": "2022-06-11T06:40:11.351Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "QiuUwBrWWAlC2smwu8T1YrheV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 1128,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 43013,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 41013,
+                "currency": "USD"
+            },
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "receipt_number": "j7zt",
+            "receipt_url": "https://squareup.com/receipt/preview/j7ztrWpi10CfCjMCXtPWLGw8taB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMx9puDzpUTBwg-2",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "GuhdSsxYIzMjn3ZDAfCypwCrNrYPXwvsbWymXPaF5O75o"
+        },
+        {
+            "id": "7pcX8RIV0OwEDKVTvCZgYR4AvaB",
+            "created_at": "2022-06-11T02:44:05.370Z",
+            "updated_at": "2022-06-11T06:40:13.950Z",
+            "amount_money": {
+                "amount": 6483,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 517,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "8127",
+                    "exp_month": 6,
+                    "exp_year": 2023,
+                    "cardholder_name": "VAIDYANATHAN/HEMA ",
+                    "fingerprint": "sq-1-fmmOWYcGmeLvwdvS_0McgYGxQSTWYN6MA1NDsPbdnWVUm0aXCb7Yevj-gE58Jsnb4w",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414709"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "02173D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CAPITAL ONE VISA",
+                "application_cryptogram": "e133eec498b0bc8a",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:44:05.908Z",
+                    "captured_at": "2022-06-11T06:40:12.947Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "UGtNbeNOLV8O8dFw6zRMYf1eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 192,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 7000,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 6483,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "7pcX",
+            "receipt_url": "https://squareup.com/receipt/preview/7pcX8RIV0OwEDKVTvCZgYR4AvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "t2IzmSCuY0CojwHfFgm0q8w34ii6AB1QDZSP39vP14Z6o"
+        },
+        {
+            "id": "rDVXydmj4m02LFIihizpElpUuaB",
+            "created_at": "2022-06-11T02:43:07.009Z",
+            "updated_at": "2022-06-11T06:40:13.980Z",
+            "amount_money": {
+                "amount": 4234,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 266,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "8127",
+                    "exp_month": 6,
+                    "exp_year": 2023,
+                    "cardholder_name": "VAIDYANATHAN/HEMA ",
+                    "fingerprint": "sq-1-fmmOWYcGmeLvwdvS_0McgYGxQSTWYN6MA1NDsPbdnWVUm0aXCb7Yevj-gE58Jsnb4w",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414709"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "09222D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CAPITAL ONE VISA",
+                "application_cryptogram": "10e6306c62ead046",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:43:07.590Z",
+                    "captured_at": "2022-06-11T06:40:11.594Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "CZ7RdaI4AEFJQwS5QcQG3a2eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 127,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 4500,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 4234,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "rDVX",
+            "receipt_url": "https://squareup.com/receipt/preview/rDVXydmj4m02LFIihizpElpUuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "u0gzqiiQmVHdOzQu9NVqysjmg9gonGdRZE3obgcyPiw6o"
+        },
+        {
+            "id": "nhd9zHsq744aM1frMRZBJgLyuaB",
+            "created_at": "2022-06-11T02:37:34.373Z",
+            "updated_at": "2022-06-11T06:40:14.064Z",
+            "amount_money": {
+                "amount": 10149,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 1000,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "5892",
+                    "exp_month": 8,
+                    "exp_year": 2023,
+                    "cardholder_name": "CRESSEY/SUZANNE ",
+                    "fingerprint": "sq-1-kuNjS0EIw7VTDcAf1covaX5G5YXYUczdJRpJYyof1knNTDugwCSlElJZHZQmGYUQkw",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "443242"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "093734",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA DEBIT",
+                "application_cryptogram": "ab7a428c5358b4b2",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:37:34.791Z",
+                    "captured_at": "2022-06-11T06:40:12.467Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "MKTCPHTpLHcmNSR1nNjayK6eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 300,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 11149,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 10149,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "nhd9",
+            "receipt_url": "https://squareup.com/receipt/preview/nhd9zHsq744aM1frMRZBJgLyuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "b4bYlfbGCSDUjGP6MRgo7jZbmdNLIAmwh9XUP4OPeOv6o"
+        },
+        {
+            "id": "Bc6i2ICbUKgsLXk9ULxe0tjruaB",
+            "created_at": "2022-06-11T02:37:14.136Z",
+            "updated_at": "2022-06-11T06:40:13.929Z",
+            "amount_money": {
+                "amount": 10149,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "MASTERCARD",
+                    "last_4": "3952",
+                    "exp_month": 1,
+                    "exp_year": 2025,
+                    "cardholder_name": "GREGORY MCQUADE/TONIA",
+                    "fingerprint": "sq-1-7PUi0Wn0OVHK8Pot9JH5ONXclZqbq2eKgWOtyXPjRC8N54Yhs5-2iiygtA-xGMFtGg",
+                    "card_type": "DEBIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "528749"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "622247",
+                "application_identifier": "A0000000041010",
+                "application_name": "Debit MasterCard",
+                "application_cryptogram": "819424cb3fdd1550",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:37:14.941Z",
+                    "captured_at": "2022-06-11T06:40:12.955Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "MKTCPHTpLHcmNSR1nNjayK6eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:12.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 274,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 10149,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 10149,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "receipt_number": "Bc6i",
+            "receipt_url": "https://squareup.com/receipt/preview/Bc6i2ICbUKgsLXk9ULxe0tjruaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "JVsCOB1ic4IFNZNf5OMX2g0k0c2e3Mv9Dtiv9oKZDj85o"
+        },
+        {
+            "id": "FATQFhmpWa1NPrQI2cKw72zeuaB",
+            "created_at": "2022-06-11T02:37:02.491Z",
+            "amount_money": {
+                "amount": 22700,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CASH",
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "MKTCPHTpLHcmNSR1nNjayK6eV",
+            "total_money": {
+                "amount": 22700,
+                "currency": "USD"
+            },
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "cash_details": {
+                "buyer_supplied_money": {
+                    "amount": 22700,
+                    "currency": "USD"
+                },
+                "change_back_money": {
+                    "amount": 0,
+                    "currency": "USD"
+                }
+            },
+            "receipt_number": "FATQ",
+            "receipt_url": "https://squareup.com/receipt/preview/FATQFhmpWa1NPrQI2cKw72zeuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMxK2iUZ5Vv-psMg",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "DByNaUaLZaHFYY4ro51IB5zjuYrXwOzJZn3jOkh7EvF6o"
+        },
+        {
+            "id": "zvHw5mqhq17S80CSJrKAtqmwuaB",
+            "created_at": "2022-06-11T02:37:02.185Z",
+            "updated_at": "2022-06-11T06:40:13.931Z",
+            "amount_money": {
+                "amount": 18654,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 3700,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "0504",
+                    "exp_month": 10,
+                    "exp_year": 2025,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-Z_LzU0PU9tmUTCfASW8Mm3IuaOOuFveXAQLT_-KcR2Otj1tlmIkKSCv6lgyO-HP1sg",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414734"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "03534D",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA CREDIT",
+                "application_cryptogram": "4c83732afedff8f7",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:37:02.623Z",
+                    "captured_at": "2022-06-11T06:40:11.640Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "UUotyEjxd22ZmrN56EYXrvoeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 591,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 22354,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 18654,
+                "currency": "USD"
+            },
+            "employee_id": "TM7kAGThY91B9yZn",
+            "receipt_number": "zvHw",
+            "receipt_url": "https://squareup.com/receipt/preview/zvHw5mqhq17S80CSJrKAtqmwuaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TM7kAGThY91B9yZn",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "oIFBzdQPiBSWUJf4P1UWni5OeavGdajsI11B7J2eHaI6o"
+        },
+        {
+            "id": "bFipHav1C7Z2UT1bNQmo0LepvaB",
+            "created_at": "2022-06-11T02:22:38.868Z",
+            "updated_at": "2022-06-11T06:40:13.835Z",
+            "amount_money": {
+                "amount": 19184,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 1500,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "AMERICAN_EXPRESS",
+                    "last_4": "1004",
+                    "exp_month": 11,
+                    "exp_year": 2024,
+                    "cardholder_name": "VALUED CUSTOMER           ",
+                    "fingerprint": "sq-1-PIMrFQsNnqYGdJeo-sNJ630U9NOzZbJ_0hAr_YOugeZftNF1by7_doikYO04VG9SHQ",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "372652"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "864603",
+                "application_identifier": "A000000025010801",
+                "application_name": "AMERICAN EXPRESS",
+                "application_cryptogram": "b4749276120b4476",
+                "verification_method": "NONE",
+                "verification_results": "SUCCESS",
+                "statement_description": "KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T02:22:39.386Z",
+                    "captured_at": "2022-06-11T06:40:11.342Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "i13SKLeGVTXoAAgzaN6t0n6eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 548,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 20684,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 19184,
+                "currency": "USD"
+            },
+            "employee_id": "TMoLHZGmlPQIbOdT",
+            "receipt_number": "bFip",
+            "receipt_url": "https://squareup.com/receipt/preview/bFipHav1C7Z2UT1bNQmo0LepvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMoLHZGmlPQIbOdT",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "ZWKjT0Aj2SXvL9bTIT8H5cDUlXK0ZsSXyUsHjfRyQ5a6o"
+        },
+        {
+            "id": "Fq8gE597TAOIqFRHYtcKowwNvaB",
+            "created_at": "2022-06-11T01:50:30.291Z",
+            "updated_at": "2022-06-11T06:40:14.157Z",
+            "amount_money": {
+                "amount": 12039,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "7375",
+                    "exp_month": 12,
+                    "exp_year": 2025,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-0jz-_fJwF2K5sz0iEtqijoDB6pGcctldDNXB-VUuVX9GGAakxvZ4uxKDmoViEVL7Bw",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414720"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "00915I",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "bdca34e3d4d14a85",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T01:50:30.752Z",
+                    "captured_at": "2022-06-11T06:40:11.573Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "E0I5rLrOajNt54f6MCyP805eV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 323,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 12039,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 12039,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "Fq8g",
+            "receipt_url": "https://squareup.com/receipt/preview/Fq8gE597TAOIqFRHYtcKowwNvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "dTSuq4L9K2qiAbUHM1yQgey1HiLJHOpHl3eC99J7dPt6o"
+        },
+        {
+            "id": "NmEOApjLjsF5CW7rSbfz9Q1JvaB",
+            "created_at": "2022-06-11T01:28:54.765Z",
+            "updated_at": "2022-06-11T06:40:13.988Z",
+            "amount_money": {
+                "amount": 31884,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "5518",
+                    "exp_month": 11,
+                    "exp_year": 2024,
+                    "cardholder_name": "CARDHOLDER/VISA",
+                    "fingerprint": "sq-1-xC7Z7xSxYIt0og2e9ZmseK-4jvJTXBBHXNYxV2KP6TKfnZQj1jz1St6Hm8wbiUMH7Q",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "414734"
+                },
+                "entry_method": "CONTACTLESS",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "09072D",
+                "application_identifier": "A0000000031010",
+                "application_name": "VISA CREDIT",
+                "application_cryptogram": "99c4592f6ec07401",
+                "verification_method": "NONE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                    "device_name": "Kricket",
+                    "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T01:28:55.199Z",
+                    "captured_at": "2022-06-11T06:40:11.603Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "6BldWQ60hWZpoynKljHzESqeV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:11.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 839,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 31884,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 31884,
+                "currency": "USD"
+            },
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "receipt_number": "NmEO",
+            "receipt_url": "https://squareup.com/receipt/preview/NmEOApjLjsF5CW7rSbfz9Q1JvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:F13B5425-6C2A-4A73-83B0-24515593CE2A",
+                "device_name": "Kricket",
+                "device_installation_id": "F13B5425-6C2A-4A73-83B0-24515593CE2A"
+            },
+            "team_member_id": "TMOuSXQOLV5b9-ZR",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "LD0Y04nISUWRC7itvmpaiiRPYZAT7MQPAbolgfbWae75o"
+        },
+        {
+            "id": "LjRdO45YYTNPDqvKsSW96EXMvaB",
+            "created_at": "2022-06-11T01:16:43.071Z",
+            "updated_at": "2022-06-11T06:40:14.234Z",
+            "amount_money": {
+                "amount": 2778,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 200,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "5066",
+                    "exp_month": 3,
+                    "exp_year": 2024,
+                    "cardholder_name": "LLOYD/HAROLD ",
+                    "fingerprint": "sq-1-Ew5yLULgungfuWOYY-AIJXbHhXcm3Vqz6akosDasyxF7ThyAPsLRMe68eG4p-Apq1A",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "438854"
+                },
+                "entry_method": "EMV",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_NOT_CHECKED",
+                "auth_result_code": "09296D",
+                "application_identifier": "A0000000031010",
+                "application_name": "CHASE VISA",
+                "application_cryptogram": "620ea48089f75f57",
+                "verification_method": "SIGNATURE",
+                "verification_results": "UNKNOWN",
+                "statement_description": "SQ *KRICKET CLUB",
+                "device_details": {
+                    "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                    "device_name": "Kricket",
+                    "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+                },
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T01:16:43.365Z",
+                    "captured_at": "2022-06-11T06:40:13.123Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "AIDBF0njP68I0DdFTYH325keV",
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T08:40:13.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 87,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 2978,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 2778,
+                "currency": "USD"
+            },
+            "employee_id": "TMeArSHG5EvHb4vd",
+            "receipt_number": "LjRd",
+            "receipt_url": "https://squareup.com/receipt/preview/LjRdO45YYTNPDqvKsSW96EXMvaB",
+            "device_details": {
+                "device_id": "DEVICE_INSTALLATION_ID:209D0090-D95B-48B8-942A-75F4CBF75832",
+                "device_name": "Kricket",
+                "device_installation_id": "209D0090-D95B-48B8-942A-75F4CBF75832"
+            },
+            "team_member_id": "TMeArSHG5EvHb4vd",
+            "application_details": {
+                "square_product": "RESTAURANTS"
+            },
+            "version_token": "H7pIu6i8r7j6aC9hnAqVVE3J2Us0P9MIKwPCogKOzIe6o"
+        },
+        {
+            "id": "lGCgeQgLRPxoOvuEF1MksfZsgeaZY",
+            "created_at": "2022-06-11T00:46:44.980Z",
+            "updated_at": "2022-06-11T01:11:19.359Z",
+            "amount_money": {
+                "amount": 5954,
+                "currency": "USD"
+            },
+            "tip_money": {
+                "amount": 1080,
+                "currency": "USD"
+            },
+            "refunded_money": {
+                "amount": 7034,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "delay_duration": "PT168H",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "VISA",
+                    "last_4": "1132",
+                    "exp_month": 12,
+                    "exp_year": 2023,
+                    "fingerprint": "sq-1-Mhtk0QO5ge9I5VeyMQvDbEwZcQP_8N0tEmh7dKP7qVyMNFXY8mR_2SUNMRXfoZ48eg",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "482011"
+                },
+                "entry_method": "KEYED",
+                "cvv_status": "CVV_NOT_CHECKED",
+                "avs_status": "AVS_ACCEPTED",
+                "auth_result_code": "09354I",
+                "statement_description": "SQ *KRICKET CLUB",
+                "card_payment_timeline": {
+                    "authorized_at": "2022-06-11T00:46:45.344Z",
+                    "captured_at": "2022-06-11T00:46:45.859Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "msHw8XjUhwfVsIAbLHngzjB9dqeZY",
+            "reference_id": "375795231",
+            "refund_ids": [
+                "lGCgeQgLRPxoOvuEF1MksfZsgeaZY_kH6JRAoOMcLoqO1xkubqcTPlksXeKUriS2xekqyYnMa"
+            ],
+            "risk_evaluation": {
+                "created_at": "2022-06-11T00:46:45.693Z",
+                "risk_level": "NORMAL"
+            },
+            "processing_fee": [
+                {
+                    "effective_at": "2022-06-11T02:46:46.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 234,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "buyer_email_address": "mashaver@gmail.com",
+            "billing_address": {
+                "postal_code": "98115",
+                "country": "US"
+            },
+            "total_money": {
+                "amount": 7034,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 7034,
+                "currency": "USD"
+            },
+            "receipt_number": "lGCg",
+            "receipt_url": "https://squareup.com/receipt/preview/lGCgeQgLRPxoOvuEF1MksfZsgeaZY",
+            "delay_action": "CANCEL",
+            "delayed_until": "2022-06-18T00:46:44.980Z",
+            "application_details": {
+                "square_product": "ECOMMERCE_API",
+                "application_id": "sq0idp-w46nJ_NCNDMSOywaCY0mwA"
+            },
+            "version_token": "ZVtRM7CNoOBFJcO40UhvhAL0wULCDIrSaEiAIpXtgVn6o"
+        }
+    ]
+}

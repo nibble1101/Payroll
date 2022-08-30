@@ -1,6 +1,9 @@
 import sys
 import datetime
+from restaurant import Restaurant
 import OrderIdList as orders
+from payroll import Payroll
+
 
 if __name__ == "__main__":
 
@@ -25,4 +28,8 @@ if __name__ == "__main__":
     print(start_date)
     print(end_date)
 
-    orders.getListOfOrderId(restaurant, start_date, end_date, location_id)
+    restaurant_obj = Restaurant(restaurant, location_id)
+
+    payroll_obj = Payroll(restaurant_obj, start_date, end_date)
+
+    print(payroll_obj.getListOfOrderId())
