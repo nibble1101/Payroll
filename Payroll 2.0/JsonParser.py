@@ -9,7 +9,7 @@ def extractOrderList(json_dict_payment_object):
     for payment in list_of_payments:
         order_list.append(payment["order_id"])
 
-    with open("sample.json", "w") as outfile:
+    with open("PaymentAPI.json", "w") as outfile:
         json.dump(json_dict_payment_object, outfile, indent = 4)
 
     return order_list

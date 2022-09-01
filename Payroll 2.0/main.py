@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     payroll_obj = Payroll(restaurant_obj, start_date, end_date)
 
-    print(payroll_obj.getListOfOrderId())
+    payroll_obj.generatePayroll()
