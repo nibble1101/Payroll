@@ -3,6 +3,9 @@ import os
 import JsonParser as jp
 import json
 import pprint
+import datetime
+from pytz import timezone
+import pytz
 
 class Payroll:
 
@@ -19,7 +22,10 @@ class Payroll:
     def generatePayroll(self):
 
         order_list = self.__getListOfOrderIdFromPaymentAPI()
-        self.__getOrdersFromOrdersAPI(order_list)
+        orders_Json = self.__getOrdersFromOrdersAPI(order_list)
+        self.__getGratuityAndTipsFromOrdersJson(orders_Json)
+
+
 
 
     def __getListOfOrderIdFromPaymentAPI(self):
@@ -54,5 +60,31 @@ class Payroll:
             # print(result.body)
             with open("orderAPI.json", "w") as outfile:
                 json.dump(result.body, outfile, indent = 4)
+            return result.body
+
         elif result.is_error():
             print(result.errors)
+
+    
+    def __getGratuityAndTipsFromOrdersJson(self, orders_Json):
+        
+        dates = []
+        for order in orders_Json["orders"]:
+            date = order["closed_at"]
+            date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.%fz")
+            pst_tz = timezone('US/Pacific')
+            pacific_now = datetime.datetime.now(pst_tz)
+            offset = -1 * (pacific_now.utcoffset().total_seconds()/60/60)
+            date = date - datetime.timedelta(hours=offset)
+            date = date.strftime("%Y-%m-%d")
+
+            # date = pst_tz.normalize(date.astimezone(pst_tz))
+            if date not in dates:
+                dates.append(date)
+
+        print(dates)
+
+
+
+
+

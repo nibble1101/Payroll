@@ -3,14 +3,20 @@ import datetime
 from restaurant import Restaurant
 import OrderIdList as orders
 from payroll import Payroll
+from pytz import timezone
+import pytz
+
+"""
+python3 main.py Kricket 06-10-2022 06-10-2022
+
+"""
 
 
 if __name__ == "__main__":
 
     restaurant = sys.argv[1]
-    location_id = sys.argv[2]
-    start_date = sys.argv[3]
-    end_date = sys.argv[4]
+    start_date = sys.argv[2]
+    end_date = sys.argv[3]
 
     start_date, end_date = start_date.split('-'), end_date.split('-')
     start_month, start_day, start_year = int(start_date[0]), int(start_date[1]), int(start_date[2])
@@ -25,10 +31,10 @@ if __name__ == "__main__":
     start_date = utc_start_date.isoformat()
     end_date = utc_end_date.isoformat()
 
-    print(start_date)
-    print(end_date)
+    print(f'Start Date: {utc_start_date}')
+    print(f'End Date: {utc_end_date}')
 
-    restaurant_obj = Restaurant(restaurant, location_id)
+    restaurant_obj = Restaurant(restaurant)
 
     payroll_obj = Payroll(restaurant_obj, start_date, end_date)
 
