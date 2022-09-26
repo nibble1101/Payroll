@@ -4,7 +4,7 @@ from pytz import timezone
 import pytz
 
 """
-python3 main.py Kricket LDXX14SV3TS0S 06-10-2022 06-10-2022
+python3 main.py Kricket 06-10-2022 06-10-2022
 
 """
 
