@@ -1,0 +1,71 @@
+{
+    "payments": [
+        {
+            "id": "3ZlxhlTPQRaXcmJvZuVJFQLXTRTZY",
+            "created_at": "2022-07-19T03:26:08.077Z",
+            "updated_at": "2022-07-19T03:26:09.932Z",
+            "amount_money": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "status": "COMPLETED",
+            "delay_duration": "PT168H",
+            "source_type": "CARD",
+            "card_details": {
+                "status": "CAPTURED",
+                "card": {
+                    "card_brand": "MASTERCARD",
+                    "last_4": "3459",
+                    "exp_month": 5,
+                    "exp_year": 2025,
+                    "fingerprint": "sq-1-vQP_ms7VAQB_vTzNyAPZ6Z4RKSuQmPIOL8YtrgzYS5jujrNqgWOpAnkOCV0kOrsn4g",
+                    "card_type": "CREDIT",
+                    "prepaid_type": "NOT_PREPAID",
+                    "bin": "526102"
+                },
+                "entry_method": "KEYED",
+                "cvv_status": "CVV_ACCEPTED",
+                "avs_status": "AVS_ACCEPTED",
+                "auth_result_code": "01887S",
+                "statement_description": "SQ *KRICKET CLUB",
+                "card_payment_timeline": {
+                    "authorized_at": "2022-07-19T03:26:08.425Z",
+                    "captured_at": "2022-07-19T03:26:08.761Z"
+                }
+            },
+            "location_id": "LDXX14SV3TS0S",
+            "order_id": "s5wsnQZ83Pm8ggC6yi6lEk77rlJZY",
+            "risk_evaluation": {
+                "created_at": "2022-07-19T03:26:08.694Z",
+                "risk_level": "NORMAL"
+            },
+            "processing_fee": [
+                {
+                    "effective_at": "2022-07-19T05:26:09.000Z",
+                    "type": "INITIAL",
+                    "amount_money": {
+                        "amount": 320,
+                        "currency": "USD"
+                    }
+                }
+            ],
+            "total_money": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "approved_money": {
+                "amount": 10000,
+                "currency": "USD"
+            },
+            "receipt_number": "3Zlx",
+            "receipt_url": "https://squareup.com/receipt/preview/3ZlxhlTPQRaXcmJvZuVJFQLXTRTZY",
+            "delay_action": "CANCEL",
+            "delayed_until": "2022-07-26T03:26:08.077Z",
+            "application_details": {
+                "square_product": "OTHER",
+                "application_id": "sq0idp-LnQlDEBJrriD2F3rrhnmtg"
+            },
+            "version_token": "oiXBk5Yz8gS7f6JCNlfTjdUK35bKpu7eaTkVTlZwVwB6o"
+        }
+    ]
+}

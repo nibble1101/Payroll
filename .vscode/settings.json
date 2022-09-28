@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Payroll 2.0"
+    ]
+}

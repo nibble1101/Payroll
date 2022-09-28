@@ -1,32 +1,40 @@
 from square.client import Client
 import os
-import JsonParser as jp
+import JsonExtractor as jp
+import json
+from Tips import Tips
+from Gratuity import Gratuity
+import datetime
+from pytz import timezone
+import pytz
+from OrderJsonObj import OrderJsonObj
 
 class Payroll:
 
-    def __init__(self, restaurant, start_date, end_date):
+    def __init__(self):
+        pass
+    
+    def generateTipFile(self, orders_Json_list):
 
-        self.__start_date = start_date
-        self.__end_date = end_date
-        self.__restaurant = restaurant
+        tip_dic = Tips(orders_Json_list).dateTipsDic
+        print(tip_dic)
 
-    def getListOfOrderId(self):
+
+    def generateGratuityFile(self, orders_Json_list):
+        
+        gratuity_dic = Gratuity(orders_Json_list).dateGratuityDic
+        print(gratuity_dic)
+
+    def generatePayroll(self):
         """
-            Description: This function takes the restaurant name
+        
+        Description: Calls the necessary functions to get the tips and the 
+        
         """
-        client = Client(
-            access_token=os.environ[f'{self.__restaurant.production_access_token}'],
-            environment='production')
+        
+        # GETS THE ORDER LIST AS A LIST OF JSON OBJECT OF EACH DATE.
+        orders_Json_list = OrderJsonObj.getOrderJsonObj()
 
-        result = client.payments.list_payments(
-            begin_time = self.__start_date,
-            end_time = self.__end_date,
-            location_id = self.__restaurant.location_id
-        )
-
-        if result.is_success():
-            # pprint.pprint(result.body)
-            json_dict_object = result.body
-            return jp.extractOrderList(json_dict_object)
-        elif result.is_error():
-            print(result.errors)
+        # EXTRACTING TIPS AND GRATUITY
+        self.generateTipFile(orders_Json_list)
+        self.generateGratuityFile(orders_Json_list)
