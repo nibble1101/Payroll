@@ -5,15 +5,15 @@ import pytz
 
 class Tips:
 
-    def __init__(self):
+    def __init__(self,  orders_Json_list):
+        self.orders_Json_list =  orders_Json_list
         self.dateTipsDic = self.__generateDateTipDic()
 
     def __generateDateTipDic(self):
         
         dates = []
         dateTipsDic = {}
-        orders_Json_list = OrderJsonObj.getOrderJsonObj()
-        for orders_Json in orders_Json_list:
+        for orders_Json in  self.orders_Json_list:
             for order in orders_Json["orders"]:
 
                 # GETTING THE DATE OF THE ORDER.

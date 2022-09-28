@@ -41,6 +41,6 @@ class OrderID:
             begin = begin + datetime.timedelta(hours=24)
             end = end + datetime.timedelta(hours=24)
 
-        for orders in listOfOrders:
-            print(len(orders))
+        # for orders in listOfOrders:
+        #     print(len(orders))
         return listOfOrders
