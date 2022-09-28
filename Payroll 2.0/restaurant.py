@@ -18,8 +18,9 @@ class Restaurant:
         result = client.locations.list_locations()
 
         if result.is_success():
-            for location in result.body['locations']:
-                return location['id']
+            if result.body != {}:
+                for location in result.body['locations']:
+                    return location['id']
 
         elif result.is_error():
             for error in result.errors:

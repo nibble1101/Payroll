@@ -10,7 +10,7 @@ from SharedDataSingleton import SharedDataSingleton
 
 
 """
-python3 main.py Kricket 06-10-2022 06-10-2022
+python3 main.py Kricket 07-04-2022 07-18-2022
 
 # sys.argv[1]           ------>         Restaurant name
 # sys.argv[2]           ------>         start_date
@@ -27,9 +27,11 @@ class Main:
             
             # FORMATTING THE START DATES 
             start_date, end_date = Utility.convertDateToRFC3339(sys.argv[2], sys.argv[3])
+            # start_date, end_date = Utility.convertDateToRFC3339('07-04-2022', '07-18-2022')
             
             # FIRST TIME CREATING A SHARED DATA SINGLETON OBJECT
             SharedDataSingleton(start_date, end_date,Restaurant( sys.argv[1]))
+            # SharedDataSingleton(start_date, end_date,Restaurant('Kricket'))
             
             payroll_obj = Payroll()
 

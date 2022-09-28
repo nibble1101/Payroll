@@ -32,7 +32,7 @@ class Payroll:
         """
 
         self.generateTipFile()
-        self.generateGratuityFile()
+        # self.generateGratuityFile()
 
 
 
