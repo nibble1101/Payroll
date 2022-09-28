@@ -1,17 +1,17 @@
-from SharedDataSingleton import sharedDataSingleton
+from SharedDataSingleton import SharedDataSingleton
 import OrderIdList
-import JsonParser as json
+import json as json
 
 class OrderJsonObj:
 
     @staticmethod
-    def getOrderJsonObj(self):
+    def getOrderJsonObj():
 
-        singletonCommonData = sharedDataSingleton.getInstance()
+        singletonCommonData = SharedDataSingleton.getInstance()
         result = singletonCommonData.client.orders.batch_retrieve_orders(
         body = {
             "location_id": singletonCommonData.restaurant.location_id,
-            "order_ids": OrderIdList.OrderID.getListOfOrderIdFromPaymentAPI()
+            "order_ids": OrderIdList.OrderID.getListOfOrderId()
           }
         )
 
@@ -22,7 +22,3 @@ class OrderJsonObj:
 
         elif result.is_error():
             print(result.errors)
-
-        
-
-

@@ -1,4 +1,3 @@
-import SharedDataSingleton as data
 from OrderJsonObj import OrderJsonObj
 import datetime
 from pytz import timezone
@@ -7,12 +6,12 @@ import pytz
 class Tips:
 
     def __init__(self):
-        self.singletonCommonData = data.sharedDataSingleton.getInstance()
-        self.dateTipsDic = {}
+        self.dateTipsDic = self.__generateDateTipDic()
 
     def __generateDateTipDic(self):
         
         dates = []
+        dateTipsDic = {}
         orders_Json = OrderJsonObj.getOrderJsonObj()
         for order in orders_Json["orders"]:
 
@@ -37,15 +36,15 @@ class Tips:
             # GETTING THE TIP MONEY
             tip_money = float((order["total_tip_money"]["amount"])/100)
 
-            if self.dateTipsDic.get(date,None) == None:
-                self.dateTipsDic[date] = {
+            if dateTipsDic.get(date,None) == None:
+                dateTipsDic[date] = {
                     "tip":tip_money,
                 }
-            elif self.dateTipsDic.get(date,None) != None:
-                tip = self.dateTipsDic.get(date)
+            elif dateTipsDic.get(date,None) != None:
+                tip = dateTipsDic.get(date)
                 tip["tip"] += tip_money
-                self.dateTipsDic[date] = tip
+                dateTipsDic[date] = tip
 
-        print(self.dateTipsDic)
+        return dateTipsDic
 
     

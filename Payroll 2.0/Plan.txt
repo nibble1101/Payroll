@@ -1,0 +1,7 @@
+Sprint 1.
+
+1.  Get the order ID from a start date to end data.
+2.  Get the Orders on the basis of the Order ID list.
+3.  Get the Tips from the orders and make a date-tip dictionary.
+4.  Get the Gratuity from the order and make a gratuity-tip dictionary.
+5.  Create a file that holds the gratuity and tips.
