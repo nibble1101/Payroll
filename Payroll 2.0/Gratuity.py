@@ -34,17 +34,17 @@ class Gratuity:
                     dates.append(date)
 
                 
-                # GETTING THE TIP MONEY
-                tip_money = float((order["total_service_charge_money"]["amount"])/100)
+                # GETTING THE GRATUITY MONEY
+                gratuity_money = float((order["total_service_charge_money"]["amount"])/100)
 
                 if dateGratuityDic.get(date,None) == None:
                     dateGratuityDic[date] = {
-                        "gratuity":tip_money,
+                        "gratuity":gratuity_money,
                     }
                 elif dateGratuityDic.get(date,None) != None:
-                    tip = dateGratuityDic.get(date)
-                    tip["gratuity"] += tip_money
-                    dateGratuityDic[date] = tip
+                    gratuity = dateGratuityDic.get(date)
+                    gratuity["gratuity"] += gratuity_money
+                    dateGratuityDic[date] = gratuity
 
         return dateGratuityDic
 

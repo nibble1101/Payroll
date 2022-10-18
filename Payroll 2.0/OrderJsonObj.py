@@ -1,5 +1,5 @@
 from SharedDataSingleton import SharedDataSingleton
-import OrderIdList
+from OrderIdList import OrderID
 import json as json
 
 class OrderJsonObj:
@@ -7,10 +7,15 @@ class OrderJsonObj:
     @staticmethod
     def getOrderJsonObj():
 
+        # LIST OF THE ORDER JSON OBJECTS.
         orders_Json_list = []
+
         singletonCommonData = SharedDataSingleton.getInstance()
-        list_of_order_id_list = OrderIdList.OrderID.getListOfOrderId()
+
+        # GETTING THE LIST OF THE ORDER IDs IN A DAY.
+        list_of_order_id_list = OrderID.getListOfOrderId()
         
+        # TRAVERSING EACH ORDER ID LIST OF EACH DAY.
         for order_id_list in list_of_order_id_list:
 
             result = singletonCommonData.client.orders.batch_retrieve_orders(
@@ -24,6 +29,8 @@ class OrderJsonObj:
                 if result.body != {}:
                     with open("orderAPI.json", "w") as outfile:
                         json.dump(result.body, outfile, indent = 4)
+                    
+                    # APPENDING THE ORDER JSON OBJECT WITH TIP AND GRATUITY INFO.
                     orders_Json_list.append(result.body)
 
             elif result.is_error():
