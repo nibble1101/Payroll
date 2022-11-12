@@ -2,7 +2,6 @@ import sys
 import datetime
 from Restaurant import Restaurant
 import OrderIdList as orders
-from Payroll import Payroll
 from pytz import timezone
 import pytz
 
@@ -33,3 +32,19 @@ class Utility:
         
 
         return start_date, end_date
+
+    @staticmethod
+    def convertUTCDateToPST(date):
+
+        # FIXING THE DATE FROM UTC TO PST
+        try:
+            date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.%fz")
+        except ValueError:
+            date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%Sz")
+        pst_tz = timezone('US/Pacific')
+        pacific_now = datetime.datetime.now(pst_tz)
+        offset = -1 * (pacific_now.utcoffset().total_seconds()/60/60)
+        date = date - datetime.timedelta(hours=offset)
+        date = date.strftime("%Y-%m-%d")
+
+        return date

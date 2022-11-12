@@ -1,19 +1,16 @@
 from SharedDataSingleton import SharedDataSingleton
 from OrderIdList import OrderID
 import json as json
-
+from datetime import datetime
 class OrderJsonObj:
 
     @staticmethod
-    def getOrderJsonObj():
+    def getOrderJsonObj(list_of_order_id_list):
 
         # LIST OF THE ORDER JSON OBJECTS.
         orders_Json_list = []
 
         singletonCommonData = SharedDataSingleton.getInstance()
-
-        # GETTING THE LIST OF THE ORDER IDs IN A DAY.
-        list_of_order_id_list = OrderID.getListOfOrderId()
         
         # TRAVERSING EACH ORDER ID LIST OF EACH DAY.
         for order_id_list in list_of_order_id_list:

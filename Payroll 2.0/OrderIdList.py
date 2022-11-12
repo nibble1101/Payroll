@@ -11,7 +11,7 @@ class OrderID:
 
         Parameters:
 
-        Returns:        Return the Lists of List Order ID per day.
+        Returns:        Return the Lists of List Order ID each day.
 
         """
 
@@ -38,6 +38,10 @@ class OrderID:
             )
 
             if result.is_success():
+                # if result.body == {}:
+
+                #     #DATE ADDED HERE IS RFC3339 FORMAT
+                #     listOfOrders.append(begin)
                 if result.body != {}:
                     json_dict_object = result.body
 
@@ -50,6 +54,5 @@ class OrderID:
             # UPDATING THE DATE BY ADDING +24 HOURS TO BOTH START AND END DATE.
             begin = begin + datetime.timedelta(hours=24)
             end = end + datetime.timedelta(hours=24)
-
 
         return listOfOrders
