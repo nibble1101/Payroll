@@ -1,0 +1,7 @@
+﻿Position,Lead Server,Bartender,Server,Assistant Server,GM,Diswasher,BOH,Host
+Points,40,40,30,15,11,5,5,15
+TipPool,Y,Y,Y,Y,N,Y,Y,Y
+GratuityPool,Y,Y,Y,Y,Y,Y,Y,Y
+Tip Percent,0.95,0.95,0.95,0.95,0.95,0.95,0.95,0.95
+Gratuity Percent,0.75,0.75,0.75,0.75,0.75,0.75,0.75,0.75
+Processing Charge,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.05

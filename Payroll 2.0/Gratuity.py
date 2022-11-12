@@ -2,6 +2,7 @@ from OrderJsonObj import OrderJsonObj
 import datetime
 from pytz import timezone
 import pytz
+from Utility import Utility
 
 class Gratuity:
 
@@ -10,9 +11,11 @@ class Gratuity:
         self.dateGratuityDic = self.__generateDateGratuityDic()
 
     def __generateDateGratuityDic(self):
-        
         dates = []
         dateGratuityDic = {}
+
+        testGratuity = 0.0
+
         for orders_Json in  self.orders_Json_list:
             for order in orders_Json["orders"]:
 
@@ -20,31 +23,37 @@ class Gratuity:
                 date = order["created_at"]
 
                 # FIXING THE DATE FROM UTC TO PST
-                try:
-                    date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.%fz")
-                except ValueError:
-                    date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%Sz")
-                pst_tz = timezone('US/Pacific')
-                pacific_now = datetime.datetime.now(pst_tz)
-                offset = -1 * (pacific_now.utcoffset().total_seconds()/60/60)
-                date = date - datetime.timedelta(hours=offset)
-                date = date.strftime("%Y-%m-%d")
+                date = Utility.convertUTCDateToPST(date)
 
                 if date not in dates:
                     dates.append(date)
 
+                # THERE CAN BE MULTIPLE SERVICE CHARGES LIKE COURIER TIP, COUNTER TIP ETC. WE'RE ONLY INTERESTED IN
+                # THE AUTO-GRATUITY.
+                # GETTING THE LIST OF THE APPLIED SERVICE CHARGES.
+
+                try:
+                    service_charge_list = order["service_charges"]
                 
-                # GETTING THE TIP MONEY
-                tip_money = float((order["total_service_charge_money"]["amount"])/100)
+                except KeyError:
+                    continue
+                
+                gratuity_money = 0.0
+                for service_charge in service_charge_list:
+                    
+                    if service_charge["type"] == "AUTO_GRATUITY":
+                        # GETTING THE GRATUITY MONEY
+                        gratuity_money += float((service_charge["applied_money"]["amount"])/100)
 
                 if dateGratuityDic.get(date,None) == None:
                     dateGratuityDic[date] = {
-                        "gratuity":tip_money,
+                        "gratuity":gratuity_money
                     }
+
                 elif dateGratuityDic.get(date,None) != None:
-                    tip = dateGratuityDic.get(date)
-                    tip["gratuity"] += tip_money
-                    dateGratuityDic[date] = tip
+                    gratuity = dateGratuityDic.get(date)
+                    gratuity["gratuity"] += gratuity_money
+                    dateGratuityDic[date] = gratuity
 
         return dateGratuityDic
 

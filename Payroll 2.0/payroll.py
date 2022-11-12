@@ -1,41 +1,44 @@
 from square.client import Client
-import os
+
 import JsonExtractor as jp
-import json
+
 from Tips import Tips
 from Gratuity import Gratuity
-import datetime
-from pytz import timezone
-import pytz
+
 from OrderJsonObj import OrderJsonObj
+from UtilityWriteFile import UtilityWriteFile
+from OrderIdList import OrderID
 
 
 class Payroll:
 
     def __init__(self):
-        pass
+        self.tip_dic = {}
+        self.gratuity_dic = {}
     
-    def generateTipFile(self, orders_Json_list):
+    def generateTip(self, orders_Json_list):
 
-        tip_dic = Tips(orders_Json_list).dateTipsDic
-        print(tip_dic)
+        self.tip_dic = Tips(orders_Json_list).dateTipsDic
+        # print(self.tip_dic)
 
-
-    def generateGratuityFile(self, orders_Json_list):
+    def generateGratuity(self, orders_Json_list):
         
-        gratuity_dic = Gratuity(orders_Json_list).dateGratuityDic
-        print(gratuity_dic)
+        self.gratuity_dic = Gratuity(orders_Json_list).dateGratuityDic
+        # print(self.gratuity_dic)
 
     def generatePayroll(self):
         """
-        
-        Description: Calls the necessary functions to get the tips and the 
+
+        Description: Calls the necessary functions to run the payroll.
         
         """
-        
+        # GETTING THE LIST OF THE ORDER IDs IN A DAY.
+        list_of_order_id_list = OrderID.getListOfOrderId()
         # GETS THE ORDER LIST AS A LIST OF JSON OBJECT OF EACH DATE.
-        orders_Json_list = OrderJsonObj.getOrderJsonObj()
+        orders_Json_list = OrderJsonObj.getOrderJsonObj(list_of_order_id_list)
 
         # EXTRACTING TIPS AND GRATUITY
-        self.generateTipFile(orders_Json_list)
-        self.generateGratuityFile(orders_Json_list)
+        self.generateTip(orders_Json_list)
+        self.generateGratuity(orders_Json_list)
+
+        self.tip_dic, self.gratuity_dic = UtilityWriteFile.writeTipsGratuity(self.tip_dic, self.gratuity_dic)
