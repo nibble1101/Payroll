@@ -1,25 +1,27 @@
 import pandas as pd
 
 point_table = pd.read_csv('Points Table.csv')
+point_table = point_table.drop('Position', axis=1)
 
-# worksheet = gc.open('points-table').sheet1
-
-# get_all_values gives a list of rows.
-# rows = worksheet.get_all_values()
 # point_table = pd.DataFrame.from_records(rows) 
-# column_names = list(point_table.loc[0,:])
+column_names = list(point_table.columns)
 print(column_names)
-# row_names = list(point_table[0])
-# column_names.pop(0)
-# row_names.pop(0)
-# point_table.drop(0, axis=0, inplace=True)
-# point_table.drop(0, axis=1, inplace=True)
+point_table_dic = {}
 
-# point_table.columns = column_names
-# point_table.index = row_names
+points = list(point_table.iloc[0])
+tipPool = list(point_table.iloc[1])
+gratuityPool = list(point_table.iloc[2])
+tipPercent = list(point_table.iloc[3])
+gratuityPercent = list(point_table.iloc[4])
+processingCharge = list(point_table.iloc[5])
 
-# point_table_aux = point_table.apply(pd.to_numeric, errors='coerce').fillna(0.0)     # Converting all the values to double type
-
-# global_points_sum = sum(list(point_table_aux.loc["Points"]))
-
-print(point_table)
+for i in range(len(column_names)):
+    
+    point_table_dic[column_names[i]] = {
+        "points" : float(points[i]),
+        "tipPool" : tipPool[i],
+        "gratuityPool" : gratuityPool[i],
+        "tipPercent" : float(tipPercent[i]),
+        "gratuityPercent" : float(gratuityPercent[i]),
+        "processingCharge" : float(processingCharge[i])
+    }
