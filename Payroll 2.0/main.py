@@ -2,7 +2,7 @@ import sys
 import datetime
 from Restaurant import Restaurant
 import OrderIdList as orders
-from Payroll import Payroll
+from payroll import Payroll
 from pytz import timezone
 import pytz
 from Utility import Utility
