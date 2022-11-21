@@ -9,6 +9,7 @@ from OrderJsonObj import OrderJsonObj
 from UtilityWriteFile import UtilityWriteFile
 from OrderIdList import OrderID
 
+from employeeHours import EmployeeHours
 
 class Payroll:
 
@@ -32,13 +33,15 @@ class Payroll:
         Description: Calls the necessary functions to run the payroll.
         
         """
-        # GETTING THE LIST OF THE ORDER IDs IN A DAY.
-        list_of_order_id_list = OrderID.getListOfOrderId()
-        # GETS THE ORDER LIST AS A LIST OF JSON OBJECT OF EACH DATE.
-        orders_Json_list = OrderJsonObj.getOrderJsonObj(list_of_order_id_list)
+        # # GETTING THE LIST OF THE ORDER IDs IN A DAY.
+        # list_of_order_id_list = OrderID.getListOfOrderId()
+        # # GETS THE ORDER LIST AS A LIST OF JSON OBJECT OF EACH DATE.
+        # orders_Json_list = OrderJsonObj.getOrderJsonObj(list_of_order_id_list)
 
-        # EXTRACTING TIPS AND GRATUITY
-        self.generateTip(orders_Json_list)
-        self.generateGratuity(orders_Json_list)
+        # # EXTRACTING TIPS AND GRATUITY
+        # self.generateTip(orders_Json_list)
+        # self.generateGratuity(orders_Json_list)
 
-        self.tip_dic, self.gratuity_dic = UtilityWriteFile.writeTipsGratuity(self.tip_dic, self.gratuity_dic)
+        # self.tip_dic, self.gratuity_dic = UtilityWriteFile.writeTipsGratuity(self.tip_dic, self.gratuity_dic)
+
+        obj = EmployeeHours()

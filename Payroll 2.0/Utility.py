@@ -23,10 +23,10 @@ class Utility:
         start_date = utc_start_date.isoformat()
         end_date = utc_end_date.isoformat()
 
-        print(f'Start Date: {type(start_date)}')
+        print(f'Start Date: {start_date}')
         print(f'End Date: {end_date}')
 
-        print(f'UTC Start Date: {type(utc_start_date)}')
+        print(f'UTC Start Date: {utc_start_date}')
         print(f'UTC End Date: {utc_end_date}')
 
         

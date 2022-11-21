@@ -1,0 +1,1804 @@
+{
+    "shifts": [
+        {
+            "id": "NY0GFHKS1W7ND",
+            "employee_id": "TMZ882oBT0UFudKf",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T18:02:00-07:00",
+            "end_at": "2022-07-17T21:21:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T18:02:21-07:00",
+            "updated_at": "2022-07-17T21:21:02-07:00",
+            "team_member_id": "TMZ882oBT0UFudKf"
+        },
+        {
+            "id": "5WPNKMEBZG7DT",
+            "employee_id": "TM8rpbZ9rhZrnMGE",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T17:59:00-07:00",
+            "end_at": "2022-07-17T21:07:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T17:59:05-07:00",
+            "updated_at": "2022-07-17T21:07:43-07:00",
+            "team_member_id": "TM8rpbZ9rhZrnMGE"
+        },
+        {
+            "id": "SSJYJXPCV44WK",
+            "employee_id": "TM5qvQnROshMmSNi",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T17:30:00-07:00",
+            "end_at": "2022-07-17T22:01:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T17:30:29-07:00",
+            "updated_at": "2022-07-17T22:01:18-07:00",
+            "team_member_id": "TM5qvQnROshMmSNi"
+        },
+        {
+            "id": "1YRHJ34DTY2HR",
+            "employee_id": "TMG9yIGz9JEvU3Jl",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T17:03:00-07:00",
+            "end_at": "2022-07-17T21:22:00-07:00",
+            "wage": {
+                "title": "FOH-Expo",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T17:03:20-07:00",
+            "updated_at": "2022-07-17T21:22:52-07:00",
+            "team_member_id": "TMG9yIGz9JEvU3Jl"
+        },
+        {
+            "id": "2HX6X468QKZS6",
+            "employee_id": "TMMoCx7d5Dh4_0tb",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T16:30:00-07:00",
+            "end_at": "2022-07-17T22:02:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T16:30:06-07:00",
+            "updated_at": "2022-07-17T22:02:43-07:00",
+            "team_member_id": "TMMoCx7d5Dh4_0tb"
+        },
+        {
+            "id": "NVN00XGTKKHTA",
+            "employee_id": "TMeArSHG5EvHb4vd",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T15:44:00-07:00",
+            "end_at": "2022-07-17T22:06:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T15:44:52-07:00",
+            "updated_at": "2022-07-17T22:06:30-07:00",
+            "team_member_id": "TMeArSHG5EvHb4vd"
+        },
+        {
+            "id": "ZTG0T5HP8EVJF",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T15:41:00-07:00",
+            "end_at": "2022-07-17T20:56:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Manager",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T15:41:16-07:00",
+            "updated_at": "2022-07-17T20:56:36-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "W6EK4AKTG9K1F",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T15:28:00-07:00",
+            "end_at": "2022-07-17T22:12:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-17T15:28:33-07:00",
+            "updated_at": "2022-07-17T22:12:17-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "KCMFZ7JAWT5QS",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-17T15:45:00-07:00",
+            "end_at": "2022-07-17T21:18:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-17T13:08:13-07:00",
+            "updated_at": "2022-07-18T05:57:40-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "H40J7J21SS8SJ",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T13:00:00-07:00",
+            "end_at": "2022-07-16T21:00:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-16T20:33:57-07:00",
+            "updated_at": "2022-07-18T05:58:29-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "796CWC9PDZFQG",
+            "employee_id": "TMZ882oBT0UFudKf",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T18:00:00-07:00",
+            "end_at": "2022-07-16T21:37:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-16T18:00:50-07:00",
+            "updated_at": "2022-07-16T21:37:37-07:00",
+            "team_member_id": "TMZ882oBT0UFudKf"
+        },
+        {
+            "id": "XMFA2QH7RYYJA",
+            "employee_id": "TMMoCx7d5Dh4_0tb",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T17:59:00-07:00",
+            "end_at": "2022-07-16T22:00:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-16T17:59:14-07:00",
+            "updated_at": "2022-07-16T22:00:04-07:00",
+            "team_member_id": "TMMoCx7d5Dh4_0tb"
+        },
+        {
+            "id": "8HDG6572F2QV1",
+            "employee_id": "TMG9yIGz9JEvU3Jl",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T17:58:00-07:00",
+            "end_at": "2022-07-16T22:02:00-07:00",
+            "wage": {
+                "title": "FOH-Expo",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-16T17:58:25-07:00",
+            "updated_at": "2022-07-16T22:02:28-07:00",
+            "team_member_id": "TMG9yIGz9JEvU3Jl"
+        },
+        {
+            "id": "KPE1YCG9JY0G6",
+            "employee_id": "TM5qvQnROshMmSNi",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T17:29:00-07:00",
+            "end_at": "2022-07-16T21:49:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-16T17:29:27-07:00",
+            "updated_at": "2022-07-16T21:49:33-07:00",
+            "team_member_id": "TM5qvQnROshMmSNi"
+        },
+        {
+            "id": "J6NDTM5BE36SB",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T16:43:00-07:00",
+            "end_at": "2022-07-16T22:54:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-16T16:43:32-07:00",
+            "updated_at": "2022-07-16T22:54:11-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "0VTAQ7WXHTRQ7",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T16:15:00-07:00",
+            "end_at": "2022-07-16T22:58:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-16T16:15:35-07:00",
+            "updated_at": "2022-07-16T22:58:58-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "ZDY2TZ0ZTX2D2",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T15:45:00-07:00",
+            "end_at": "2022-07-16T21:01:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-16T15:29:06-07:00",
+            "updated_at": "2022-07-16T21:01:14-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "78TJ3EXWCZBND",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-16T15:23:00-07:00",
+            "end_at": "2022-07-16T22:42:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-16T15:23:00-07:00",
+            "updated_at": "2022-07-16T22:42:54-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "5GBCJRYT43WXD",
+            "employee_id": "TMeArSHG5EvHb4vd",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T19:32:00-07:00",
+            "end_at": "2022-07-15T23:00:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-15T19:32:52-07:00",
+            "updated_at": "2022-07-15T23:00:37-07:00",
+            "team_member_id": "TMeArSHG5EvHb4vd"
+        },
+        {
+            "id": "6YSG90KV5MAVR",
+            "employee_id": "TMMoCx7d5Dh4_0tb",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T18:12:00-07:00",
+            "end_at": "2022-07-15T22:58:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-15T18:12:24-07:00",
+            "updated_at": "2022-07-15T22:58:15-07:00",
+            "team_member_id": "TMMoCx7d5Dh4_0tb"
+        },
+        {
+            "id": "62TF53BEJWGEM",
+            "employee_id": "TMG9yIGz9JEvU3Jl",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T18:00:00-07:00",
+            "end_at": "2022-07-15T22:16:00-07:00",
+            "wage": {
+                "title": "FOH-Expo",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-15T18:11:41-07:00",
+            "updated_at": "2022-07-15T22:16:19-07:00",
+            "team_member_id": "TMG9yIGz9JEvU3Jl"
+        },
+        {
+            "id": "D922CBHN45ZXK",
+            "employee_id": "TMZ882oBT0UFudKf",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T18:01:00-07:00",
+            "end_at": "2022-07-15T21:32:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-15T18:01:00-07:00",
+            "updated_at": "2022-07-15T21:32:30-07:00",
+            "team_member_id": "TMZ882oBT0UFudKf"
+        },
+        {
+            "id": "FXG3VE359P5JN",
+            "employee_id": "TM8rpbZ9rhZrnMGE",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T17:59:00-07:00",
+            "end_at": "2022-07-15T21:33:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-15T17:59:21-07:00",
+            "updated_at": "2022-07-15T21:33:15-07:00",
+            "team_member_id": "TM8rpbZ9rhZrnMGE"
+        },
+        {
+            "id": "EZD2NA6616AEG",
+            "employee_id": "TM5qvQnROshMmSNi",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T17:30:00-07:00",
+            "end_at": "2022-07-15T21:20:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-15T17:51:45-07:00",
+            "updated_at": "2022-07-15T21:20:12-07:00",
+            "team_member_id": "TM5qvQnROshMmSNi"
+        },
+        {
+            "id": "01T31J7ADTVBF",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T16:58:00-07:00",
+            "end_at": "2022-07-15T21:52:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-15T16:58:57-07:00",
+            "updated_at": "2022-07-15T21:52:56-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "JX7BSB94YJYM8",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T16:12:00-07:00",
+            "end_at": "2022-07-15T20:07:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-15T16:12:33-07:00",
+            "updated_at": "2022-07-15T20:07:26-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "8Y7WW4J7HRX6J",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T15:21:00-07:00",
+            "end_at": "2022-07-15T22:47:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-15T15:21:33-07:00",
+            "updated_at": "2022-07-15T22:47:56-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "7D2A5ZHQP4BHT",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T14:33:00-07:00",
+            "end_at": "2022-07-15T21:30:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-15T14:33:52-07:00",
+            "updated_at": "2022-07-16T17:52:19-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "8RRPM2NH4H5QG",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-15T15:45:00-07:00",
+            "end_at": "2022-07-15T22:00:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-15T13:12:07-07:00",
+            "updated_at": "2022-07-16T17:51:27-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "5BTSEZ9HVJDZS",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-14T16:30:00-07:00",
+            "end_at": "2022-07-14T22:24:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-14T16:30:05-07:00",
+            "updated_at": "2022-07-14T22:24:11-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "SMJG5SAWF2RGA",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-14T16:20:00-07:00",
+            "end_at": "2022-07-14T22:49:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-14T16:20:29-07:00",
+            "updated_at": "2022-07-14T22:49:20-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "WWAASM6C770Y1",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-14T16:11:00-07:00",
+            "end_at": "2022-07-14T22:18:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-14T16:11:19-07:00",
+            "updated_at": "2022-07-14T22:18:33-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "MBJC5PQ80DH0X",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-14T13:41:00-07:00",
+            "end_at": "2022-07-14T20:56:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-14T13:41:34-07:00",
+            "updated_at": "2022-07-14T20:56:07-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "ABA72MS5JN0XG",
+            "employee_id": "TMMoCx7d5Dh4_0tb",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-13T19:03:00-07:00",
+            "end_at": "2022-07-13T21:59:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-13T19:03:19-07:00",
+            "updated_at": "2022-07-13T21:59:41-07:00",
+            "team_member_id": "TMMoCx7d5Dh4_0tb"
+        },
+        {
+            "id": "8GN3P93YH1MCG",
+            "employee_id": "TM8rpbZ9rhZrnMGE",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-13T18:58:00-07:00",
+            "end_at": "2022-07-13T21:17:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-13T18:58:53-07:00",
+            "updated_at": "2022-07-13T21:17:16-07:00",
+            "team_member_id": "TM8rpbZ9rhZrnMGE"
+        },
+        {
+            "id": "Q9DGZ8PCKAHKF",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-13T18:12:00-07:00",
+            "end_at": "2022-07-13T21:58:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-13T18:12:41-07:00",
+            "updated_at": "2022-07-13T21:58:46-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "RH6FDWHK9G042",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-13T16:21:00-07:00",
+            "end_at": "2022-07-13T22:39:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-13T16:21:59-07:00",
+            "updated_at": "2022-07-13T22:39:51-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "TJ309DDK85BZW",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-13T15:26:00-07:00",
+            "end_at": "2022-07-13T22:06:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-13T15:26:21-07:00",
+            "updated_at": "2022-07-13T22:06:13-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "26NRAEDHXFM9D",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-13T14:15:00-07:00",
+            "end_at": "2022-07-13T21:00:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-13T14:15:00-07:00",
+            "updated_at": "2022-07-14T08:38:34-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "Q7R51CT7BG7G1",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-13T15:45:00-07:00",
+            "end_at": "2022-07-13T21:33:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-13T13:07:24-07:00",
+            "updated_at": "2022-07-14T08:39:26-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "0YKCZ8X70N913",
+            "employee_id": "TMG9yIGz9JEvU3Jl",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-12T19:01:00-07:00",
+            "end_at": "2022-07-12T23:01:00-07:00",
+            "wage": {
+                "title": "FOH-Expo",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-12T19:01:28-07:00",
+            "updated_at": "2022-07-12T23:01:06-07:00",
+            "team_member_id": "TMG9yIGz9JEvU3Jl"
+        },
+        {
+            "id": "AHS6T9MVCYZ69",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-12T14:45:00-07:00",
+            "end_at": "2022-07-12T23:02:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-12T16:21:20-07:00",
+            "updated_at": "2022-07-14T08:38:17-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "878MC9BYJZN5Z",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-12T16:16:00-07:00",
+            "end_at": "2022-07-12T23:03:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-12T16:16:07-07:00",
+            "updated_at": "2022-07-12T23:03:27-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "8WDF61043AEJY",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-12T15:30:00-07:00",
+            "end_at": "2022-07-12T22:41:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-12T15:30:13-07:00",
+            "updated_at": "2022-07-12T22:41:59-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "CC3FKQHERFY5F",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-12T15:45:00-07:00",
+            "end_at": "2022-07-12T22:59:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-12T13:13:45-07:00",
+            "updated_at": "2022-07-14T08:39:10-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "4YBC3T3K5SAWT",
+            "employee_id": "TMZ882oBT0UFudKf",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-10T17:57:00-07:00",
+            "end_at": "2022-07-10T21:23:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-10T17:57:55-07:00",
+            "updated_at": "2022-07-10T21:23:52-07:00",
+            "team_member_id": "TMZ882oBT0UFudKf"
+        },
+        {
+            "id": "SKDGCKJJ1NY0S",
+            "employee_id": "TM8rpbZ9rhZrnMGE",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-10T17:44:00-07:00",
+            "end_at": "2022-07-10T21:10:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-10T17:44:35-07:00",
+            "updated_at": "2022-07-10T21:10:21-07:00",
+            "team_member_id": "TM8rpbZ9rhZrnMGE"
+        },
+        {
+            "id": "SY8QWDPX2518B",
+            "employee_id": "TMMoCx7d5Dh4_0tb",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-10T16:32:00-07:00",
+            "end_at": "2022-07-10T22:29:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-10T16:32:15-07:00",
+            "updated_at": "2022-07-10T22:29:37-07:00",
+            "team_member_id": "TMMoCx7d5Dh4_0tb"
+        },
+        {
+            "id": "WW3RBPAY8KPQA",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-10T15:33:00-07:00",
+            "end_at": "2022-07-10T22:09:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-10T15:33:46-07:00",
+            "updated_at": "2022-07-10T22:09:54-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "81ZT9G48QHJN5",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-10T15:04:00-07:00",
+            "end_at": "2022-07-10T20:38:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Manager",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-10T15:04:08-07:00",
+            "updated_at": "2022-07-10T20:38:07-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "75VE7Z9F2CBYS",
+            "employee_id": "TMeArSHG5EvHb4vd",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-10T14:54:00-07:00",
+            "end_at": "2022-07-10T22:29:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-10T14:54:31-07:00",
+            "updated_at": "2022-07-10T22:29:42-07:00",
+            "team_member_id": "TMeArSHG5EvHb4vd"
+        },
+        {
+            "id": "FSC58N8MZ6C7H",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-10T15:45:00-07:00",
+            "end_at": "2022-07-10T21:32:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-10T13:09:32-07:00",
+            "updated_at": "2022-07-10T22:59:54-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "SX4ZRKHHNX66Z",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T18:33:00-07:00",
+            "end_at": "2022-07-09T23:17:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T18:33:18-07:00",
+            "updated_at": "2022-07-09T23:17:47-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "YGFHC7ZXN37JR",
+            "employee_id": "TM8rpbZ9rhZrnMGE",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T18:28:00-07:00",
+            "end_at": "2022-07-09T21:35:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T18:28:43-07:00",
+            "updated_at": "2022-07-09T21:35:21-07:00",
+            "team_member_id": "TM8rpbZ9rhZrnMGE"
+        },
+        {
+            "id": "KCME13QYSAVG2",
+            "employee_id": "TMZ882oBT0UFudKf",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T18:18:00-07:00",
+            "end_at": "2022-07-09T21:45:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T18:18:24-07:00",
+            "updated_at": "2022-07-09T21:45:12-07:00",
+            "team_member_id": "TMZ882oBT0UFudKf"
+        },
+        {
+            "id": "DVTS2E5ZW4XMC",
+            "employee_id": "TMMoCx7d5Dh4_0tb",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T18:12:00-07:00",
+            "end_at": "2022-07-09T21:57:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T18:12:23-07:00",
+            "updated_at": "2022-07-09T21:57:01-07:00",
+            "team_member_id": "TMMoCx7d5Dh4_0tb"
+        },
+        {
+            "id": "AGAXKH5ZDGCTX",
+            "employee_id": "TM7kAGThY91B9yZn",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T17:32:00-07:00",
+            "end_at": "2022-07-09T22:38:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T17:32:03-07:00",
+            "updated_at": "2022-07-09T22:38:17-07:00",
+            "team_member_id": "TM7kAGThY91B9yZn"
+        },
+        {
+            "id": "0653W26ZMQTFQ",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T17:24:00-07:00",
+            "end_at": "2022-07-09T23:14:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T17:24:57-07:00",
+            "updated_at": "2022-07-09T23:14:13-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "MEWMW50W1SDGQ",
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T16:16:00-07:00",
+            "end_at": "2022-07-09T21:36:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T16:16:06-07:00",
+            "updated_at": "2022-07-09T21:36:20-07:00",
+            "team_member_id": "TMxK2iUZ5Vv-psMg"
+        },
+        {
+            "id": "80BW0ZNYQV3J4",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T15:26:00-07:00",
+            "end_at": "2022-07-09T23:15:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-09T15:26:51-07:00",
+            "updated_at": "2022-07-09T23:15:21-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "X6DM496AT275V",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T14:50:00-07:00",
+            "end_at": "2022-07-09T22:00:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-09T14:50:16-07:00",
+            "updated_at": "2022-07-10T22:58:36-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "S3XYW3KPHRSA3",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-09T15:45:00-07:00",
+            "end_at": "2022-07-09T21:56:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-09T13:12:21-07:00",
+            "updated_at": "2022-07-10T22:59:23-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "5KV9VQAQ2T6AA",
+            "employee_id": "TMeArSHG5EvHb4vd",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T19:23:00-07:00",
+            "end_at": "2022-07-08T23:11:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T19:23:56-07:00",
+            "updated_at": "2022-07-08T23:11:46-07:00",
+            "team_member_id": "TMeArSHG5EvHb4vd"
+        },
+        {
+            "id": "8XM8PTW7NBHMV",
+            "employee_id": "TMMoCx7d5Dh4_0tb",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T18:05:00-07:00",
+            "end_at": "2022-07-08T23:37:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T18:05:03-07:00",
+            "updated_at": "2022-07-08T23:37:21-07:00",
+            "team_member_id": "TMMoCx7d5Dh4_0tb"
+        },
+        {
+            "id": "1EEDXFY3X6HFH",
+            "employee_id": "TM8rpbZ9rhZrnMGE",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T18:00:00-07:00",
+            "end_at": "2022-07-08T21:48:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T18:00:23-07:00",
+            "updated_at": "2022-07-08T21:48:40-07:00",
+            "team_member_id": "TM8rpbZ9rhZrnMGE"
+        },
+        {
+            "id": "1KDKZ016ZTV8G",
+            "employee_id": "TMZ882oBT0UFudKf",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T18:00:00-07:00",
+            "end_at": "2022-07-08T21:52:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T18:00:00-07:00",
+            "updated_at": "2022-07-08T21:52:19-07:00",
+            "team_member_id": "TMZ882oBT0UFudKf"
+        },
+        {
+            "id": "V1C258XVHVB28",
+            "employee_id": "TM7kAGThY91B9yZn",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T17:56:00-07:00",
+            "end_at": "2022-07-08T22:36:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-08T17:56:07-07:00",
+            "updated_at": "2022-07-10T23:00:58-07:00",
+            "team_member_id": "TM7kAGThY91B9yZn"
+        },
+        {
+            "id": "J33XWFGB294GR",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T17:37:00-07:00",
+            "end_at": "2022-07-08T22:15:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T17:37:50-07:00",
+            "updated_at": "2022-07-08T22:15:12-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "SE8K1NXJ78FRS",
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T17:21:00-07:00",
+            "end_at": "2022-07-08T22:12:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T17:21:43-07:00",
+            "updated_at": "2022-07-08T22:12:26-07:00",
+            "team_member_id": "TMxK2iUZ5Vv-psMg"
+        },
+        {
+            "id": "SXWPSEBJMMD4R",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T16:18:00-07:00",
+            "end_at": "2022-07-08T21:05:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T16:18:50-07:00",
+            "updated_at": "2022-07-08T21:05:38-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "VSTZF85H7Y7JP",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T15:29:00-07:00",
+            "end_at": "2022-07-08T23:32:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T15:29:47-07:00",
+            "updated_at": "2022-07-08T23:32:59-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "0VG4BZV13R01A",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T13:39:00-07:00",
+            "end_at": "2022-07-08T21:45:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-08T13:39:33-07:00",
+            "updated_at": "2022-07-08T21:45:53-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "97J3XKETTEQYR",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-08T15:45:00-07:00",
+            "end_at": "2022-07-08T22:17:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-08T13:10:00-07:00",
+            "updated_at": "2022-07-10T22:59:15-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "HMPKA9RYDM5EV",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-07T16:16:00-07:00",
+            "end_at": "2022-07-07T22:34:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-07T16:16:58-07:00",
+            "updated_at": "2022-07-07T22:34:36-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "CF06FKM6654TW",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-07T13:00:00-07:00",
+            "end_at": "2022-07-07T22:23:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-07T15:36:57-07:00",
+            "updated_at": "2022-07-08T09:14:30-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "REBE31AWRW5BC",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-07T15:13:00-07:00",
+            "end_at": "2022-07-07T22:16:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-07T15:13:34-07:00",
+            "updated_at": "2022-07-07T22:16:27-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "2FH51R96BGCX2",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-07T15:45:00-07:00",
+            "end_at": "2022-07-07T22:30:00-07:00",
+            "wage": {
+                "title": "FOH-Host",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 4,
+            "created_at": "2022-07-07T13:01:42-07:00",
+            "updated_at": "2022-07-08T09:15:26-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "MWTXA8F0BGJXM",
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-06T17:35:00-07:00",
+            "end_at": "2022-07-06T21:58:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-06T17:35:52-07:00",
+            "updated_at": "2022-07-06T21:58:49-07:00",
+            "team_member_id": "TMxK2iUZ5Vv-psMg"
+        },
+        {
+            "id": "CCSNFA9ENMFY2",
+            "employee_id": "TM7kAGThY91B9yZn",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-06T17:13:00-07:00",
+            "end_at": "2022-07-06T22:35:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-06T17:13:24-07:00",
+            "updated_at": "2022-07-06T22:35:43-07:00",
+            "team_member_id": "TM7kAGThY91B9yZn"
+        },
+        {
+            "id": "EJ8J5F4TRPKY7",
+            "employee_id": "TMx9puDzpUTBwg-2",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-06T16:19:00-07:00",
+            "end_at": "2022-07-06T22:51:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1800,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-06T16:19:12-07:00",
+            "updated_at": "2022-07-06T22:51:08-07:00",
+            "team_member_id": "TMx9puDzpUTBwg-2"
+        },
+        {
+            "id": "F475HRZKZPCAZ",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-06T15:56:00-07:00",
+            "end_at": "2022-07-06T22:20:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-06T15:56:49-07:00",
+            "updated_at": "2022-07-06T22:20:21-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "NRK73DNH4E10Z",
+            "employee_id": "TMOuSXQOLV5b9-ZR",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-06T15:43:00-07:00",
+            "end_at": "2022-07-06T21:08:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1875,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-06T15:43:49-07:00",
+            "updated_at": "2022-07-06T21:08:13-07:00",
+            "team_member_id": "TMOuSXQOLV5b9-ZR"
+        },
+        {
+            "id": "K1TXPS0YQG58C",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-06T14:36:00-07:00",
+            "end_at": "2022-07-06T19:56:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-06T14:36:58-07:00",
+            "updated_at": "2022-07-06T19:56:05-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        },
+        {
+            "id": "0SZ048F7S9GX0",
+            "employee_id": "TMG9yIGz9JEvU3Jl",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-05T18:00:00-07:00",
+            "end_at": "2022-07-05T22:00:00-07:00",
+            "wage": {
+                "title": "FOH-Expo",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-05T18:00:17-07:00",
+            "updated_at": "2022-07-05T22:00:41-07:00",
+            "team_member_id": "TMG9yIGz9JEvU3Jl"
+        },
+        {
+            "id": "C7BC4ERDJGM7K",
+            "employee_id": "TM8rpbZ9rhZrnMGE",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-05T17:58:00-07:00",
+            "end_at": "2022-07-05T21:35:00-07:00",
+            "wage": {
+                "title": "FOH-Assistant Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-05T17:58:13-07:00",
+            "updated_at": "2022-07-05T21:35:11-07:00",
+            "team_member_id": "TM8rpbZ9rhZrnMGE"
+        },
+        {
+            "id": "DTYNM5BJ1Y7PD",
+            "employee_id": "TM7kAGThY91B9yZn",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-05T17:45:00-07:00",
+            "end_at": "2022-07-05T22:16:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1575,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-05T17:45:29-07:00",
+            "updated_at": "2022-07-05T22:16:20-07:00",
+            "team_member_id": "TM7kAGThY91B9yZn"
+        },
+        {
+            "id": "Y8B10W7NZNT9K",
+            "employee_id": "TMxK2iUZ5Vv-psMg",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-05T16:15:00-07:00",
+            "end_at": "2022-07-05T22:23:00-07:00",
+            "wage": {
+                "title": "FOH-Bartender",
+                "hourly_rate": {
+                    "amount": 1600,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-05T16:15:39-07:00",
+            "updated_at": "2022-07-05T22:23:27-07:00",
+            "team_member_id": "TMxK2iUZ5Vv-psMg"
+        },
+        {
+            "id": "KKTAW120VMVGE",
+            "employee_id": "TMioRAGDLy5Kffs_",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-05T15:31:00-07:00",
+            "end_at": "2022-07-05T22:28:00-07:00",
+            "wage": {
+                "title": "BOH-Dishwasher",
+                "hourly_rate": {
+                    "amount": 2200,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 2,
+            "created_at": "2022-07-05T15:31:23-07:00",
+            "updated_at": "2022-07-05T22:28:37-07:00",
+            "team_member_id": "TMioRAGDLy5Kffs_"
+        },
+        {
+            "id": "DV6J7961Z6X1J",
+            "employee_id": "TMFaCuzJb-yh6BxG",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-05T15:45:00-07:00",
+            "end_at": "2022-07-05T21:50:00-07:00",
+            "wage": {
+                "title": "FOH-Server",
+                "hourly_rate": {
+                    "amount": 1,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-05T14:22:20-07:00",
+            "updated_at": "2022-07-08T09:19:06-07:00",
+            "team_member_id": "TMFaCuzJb-yh6BxG"
+        },
+        {
+            "id": "227PR4HG2PKPG",
+            "employee_id": "TMko9ry_ILpgLzG3",
+            "location_id": "LDXX14SV3TS0S",
+            "timezone": "America/Los_Angeles",
+            "start_at": "2022-07-05T13:42:00-07:00",
+            "end_at": "2022-07-05T21:00:00-07:00",
+            "wage": {
+                "title": "General Manager",
+                "hourly_rate": {
+                    "amount": 2885,
+                    "currency": "USD"
+                }
+            },
+            "status": "CLOSED",
+            "version": 3,
+            "created_at": "2022-07-05T13:42:48-07:00",
+            "updated_at": "2022-07-08T09:17:16-07:00",
+            "team_member_id": "TMko9ry_ILpgLzG3"
+        }
+    ]
+}

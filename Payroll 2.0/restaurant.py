@@ -20,6 +20,7 @@ class Restaurant:
         if result.is_success():
             if result.body != {}:
                 for location in result.body['locations']:
+                    print(location['id'])
                     return location['id']
 
         elif result.is_error():

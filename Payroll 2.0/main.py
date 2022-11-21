@@ -30,7 +30,9 @@ class Main:
             # start_date, end_date = Utility.convertDateToRFC3339('07-04-2022', '07-18-2022')
             
             # FIRST TIME CREATING A SHARED DATA SINGLETON OBJECT
-            SharedDataSingleton(start_date, end_date,Restaurant(sys.argv[1]))
+            obj = SharedDataSingleton(start_date, end_date,Restaurant(sys.argv[1]))
+            obj.pacificStartDate = sys.argv[2]
+            obj.pacificEndDate = sys.argv[3]
             # SharedDataSingleton(start_date, end_date,Restaurant('Kricket'))
             
             payroll_obj = Payroll()
