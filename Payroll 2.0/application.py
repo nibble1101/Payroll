@@ -1,4 +1,4 @@
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import (
     QApplication,
 )
@@ -12,24 +12,41 @@ class Resempay(QtWidgets.QMainWindow):
 
         self.height = height
         self.width = width
+        self.isSessionStarted = False
 
-        # self.setWindowTitle("LabView")
-        self.launchResempay()
+        self.windowForm = {"Type":None}
+
+        self.timer = QtCore.QTimer()
+        self.timer.setInterval(10)
+        self.timer.timeout.connect(self.launchResempay)
+        self.timer.start()
+
         self.show()
 
     def launchResempay(self):
 
-        self.launchLogInWindow()
+        if self.isSessionStarted == False:
+            self.launchLogInWindow()
+
+        if self.isSessionStarted == True:
+            self.launchPayrollWindow()
 
     def launchLogInWindow(self):
-        loginwindow = LogInWindow(self, int(self.width-((self.width*60)//100)), int(self.height-((self.height*50)//100)), self.width, self.height)
-        loginwindow.initializeUIComponents()
-        loginwindow.createLayout()
 
-        # input()
-        
-        payrollWindow = PayrollWindow(self)
-        payrollWindow.initializeUIComponents()
+        if self.windowForm["Type"] != "LogIn" and self.isSessionStarted == False:
+            loginwindow = LogInWindow(self, int(self.width-((self.width*60)//100)), int(self.height-((self.height*50)//100)), self.width, self.height)
+            loginwindow.initializeUIComponents()
+            loginwindow.createLayout()
+            loginwindow.connectUIMethods()
+            self.windowForm["Type"] = "LogIn"
+    
+    def launchPayrollWindow(self):
+
+        if self.windowForm["Type"] != "Payroll" and self.isSessionStarted == True:
+            payrollWindow = PayrollWindow(self)
+            payrollWindow.initializeUIComponents()
+            payrollWindow.createLayout()
+            self.windowForm["Type"] = "Payroll"
 
 
 

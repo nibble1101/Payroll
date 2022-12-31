@@ -18,7 +18,7 @@ class LogInWindow(QObject):
         self.applicationWindow.setWindowTitle("RESEMPAY")
         self.initializeUIComponents()
         self.createLayout()
-        # self.connectUIMethods()
+        self.connectUIMethods()
 
     def initializeUIComponents(self):
 
@@ -117,3 +117,16 @@ class LogInWindow(QObject):
         # Adding the QFrames to the Central Horizontal Widget Layout
         self.applicationWindow.horizontalLayoutHBoxLayout.addWidget(self.applicationWindow.logoNameQFrame)
         self.applicationWindow.horizontalLayoutHBoxLayout.addWidget(self.applicationWindow.logInOrCreatQFrame)
+
+    def connectUIMethods(self):
+
+        self.applicationWindow.logInQPushButton.clicked.connect(lambda: self.authenticate())
+
+
+    def authenticate(self):
+
+        isAuthenticated = True
+        print("Entered")
+        if isAuthenticated:
+            self.applicationWindow.isSessionStarted = True
+
