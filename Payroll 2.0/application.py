@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import (
 from logInWindow import LogInWindow
 from payrollWindow import PayrollWindow
 
-
 class Resempay(QtWidgets.QMainWindow):
     def __init__(self, width, height):
         super(Resempay, self).__init__()
@@ -34,7 +33,7 @@ class Resempay(QtWidgets.QMainWindow):
     def launchLogInWindow(self):
 
         if self.windowForm["Type"] != "LogIn" and self.isSessionStarted == False:
-            loginwindow = LogInWindow(self, int(self.width-((self.width*60)//100)), int(self.height-((self.height*50)//100)), self.width, self.height)
+            loginwindow = LogInWindow(self, int(self.width-((self.width*60)//100)), int(self.height-((self.height*35)//100)), self.width, self.height)
             loginwindow.initializeUIComponents()
             loginwindow.createLayout()
             loginwindow.connectUIMethods()
@@ -43,9 +42,10 @@ class Resempay(QtWidgets.QMainWindow):
     def launchPayrollWindow(self):
 
         if self.windowForm["Type"] != "Payroll" and self.isSessionStarted == True:
-            payrollWindow = PayrollWindow(self)
+            payrollWindow = PayrollWindow(self, self.width, self.height)
             payrollWindow.initializeUIComponents()
             payrollWindow.createLayout()
+            payrollWindow.connectUIMethods()
             self.windowForm["Type"] = "Payroll"
 
 
