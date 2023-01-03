@@ -1,6 +1,6 @@
 import sys
 import datetime
-from Restaurant import Restaurant
+from restaurant import Restaurant
 import OrderIdList as orders
 from pytz import timezone
 import pytz

@@ -30,7 +30,7 @@ class EmployeeHours:
                         }
                     }
                 },
-                "limit": 100
+                "limit": 200
             }
         )
 

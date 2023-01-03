@@ -1,6 +1,6 @@
 import sys
 import datetime
-from Restaurant import Restaurant
+from restaurant import Restaurant
 import OrderIdList as orders
 from payroll import Payroll
 from pytz import timezone
@@ -10,7 +10,7 @@ from SharedDataSingleton import SharedDataSingleton
 
 
 """
-python3 Main.py Kricket 07-04-2022 07-18-2022
+python3 main.py Kricket 07-04-2022 07-18-2022
 
 # sys.argv[1]           ------>         Restaurant name
 # sys.argv[2]           ------>         start_date
