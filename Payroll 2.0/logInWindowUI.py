@@ -1,12 +1,14 @@
 import sys
 
-from PyQt5.QtCore import QObject, QSize, QMargins
+from PyQt5.QtCore import QObject, QSize, pyqtSignal
 from PyQt5.QtGui import QPixmap
 from PyQt5 import QtWidgets, QtGui
 from PyQt5.QtCore import QSize, Qt
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QSizePolicy
 
 class LogInWindow(QObject):
+
+    signal = pyqtSignal()
 
     def __init__(self, applicationWindow, startWidth, startHeight, width, height):
         super(LogInWindow, self).__init__()
@@ -128,5 +130,5 @@ class LogInWindow(QObject):
         isAuthenticated = True
         print("Entered")
         if isAuthenticated:
-            self.applicationWindow.isSessionStarted = True
+            self.signal.emit()
 

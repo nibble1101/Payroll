@@ -1,12 +1,15 @@
 import sys
 
-from PyQt5.QtCore import QObject, QSize, QMargins
+from PyQt5.QtCore import QObject, pyqtSignal
 from PyQt5.QtGui import QPixmap
 from PyQt5 import QtWidgets, QtGui
 from PyQt5.QtCore import QSize, Qt
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QSizePolicy
 
 class PayrollWindow(QObject):
+
+    # Defining a signal
+    signal = pyqtSignal()
 
     def __init__(self, applicationWindow, maxScreenWidth, maxScreenHeight):
         super(PayrollWindow, self).__init__()
@@ -124,6 +127,7 @@ class PayrollWindow(QObject):
     def connectUIMethods(self):
 
         self.applicationWindow.restaurantQComboBox.currentIndexChanged.connect(lambda: self.selectRestaurantAction())
+        self.applicationWindow.generateQPushButton.clicked.connect(lambda: self.emitdataDisplayWindowSignal())
 
     def selectRestaurantAction(self):
 
@@ -143,6 +147,9 @@ class PayrollWindow(QObject):
         if restaurantOption == "Select Restaurant":
             self.applicationWindow.restaurantLogoQLabel.setPixmap(self.appLogo)
             self.applicationWindow.restaurantLogoQLabel.setAlignment(Qt.AlignCenter)
+
+    def emitdataDisplayWindowSignal(self):
+        self.signal.emit()
 
 
 
