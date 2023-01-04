@@ -10,3 +10,7 @@ Sprint 1.
 
 
 2637 	Service Charges for courier.
+
+
+Ask for Expo title
+Ask for two possible location_id

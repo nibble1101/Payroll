@@ -21,7 +21,7 @@ class Restaurant:
             if result.body != {}:
                 for location in result.body['locations']:
                     print(location['id'])
-                    return location['id']
+                return location['id']
 
         elif result.is_error():
             for error in result.errors:

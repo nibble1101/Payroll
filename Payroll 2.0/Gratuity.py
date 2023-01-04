@@ -39,6 +39,7 @@ class Gratuity:
                     continue
                 
                 gratuity_money = 0.0
+                
                 for service_charge in service_charge_list:
                     
                     if service_charge["type"] == "AUTO_GRATUITY":

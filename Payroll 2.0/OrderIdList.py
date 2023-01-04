@@ -38,10 +38,6 @@ class OrderID:
             )
 
             if result.is_success():
-                # if result.body == {}:
-
-                #     #DATE ADDED HERE IS RFC3339 FORMAT
-                #     listOfOrders.append(begin)
                 if result.body != {}:
                     json_dict_object = result.body
 

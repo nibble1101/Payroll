@@ -1,9 +1,6 @@
 import sys
 import datetime
-from restaurant import Restaurant
-import OrderIdList as orders
 from pytz import timezone
-import pytz
 
 class Utility:
 
@@ -40,7 +37,12 @@ class Utility:
         try:
             date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S.%fz")
         except ValueError:
-            date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%Sz")
+            try:
+                date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%Sz")
+
+            except ValueError:
+                date = datetime.datetime.fromisoformat(date)
+
         pst_tz = timezone('US/Pacific')
         pacific_now = datetime.datetime.now(pst_tz)
         offset = -1 * (pacific_now.utcoffset().total_seconds()/60/60)
@@ -48,3 +50,23 @@ class Utility:
         date = date.strftime("%Y-%m-%d")
 
         return date
+
+    @staticmethod
+    def getHours(start, end):
+
+        # 2022-07-17T18:02:21-07:00
+
+        start = datetime.datetime.fromisoformat(start)
+        end = datetime.datetime.fromisoformat(end)
+
+        # print(start, end)
+
+        difference = end - start
+
+        # Calculate the number of hours in the difference
+        hours = difference.total_seconds() / 3600
+
+        return round(hours, 2)
+        
+
+# Utility.getHours("2022-07-17T18:02:00-07:00", "2022-07-17T21:21:00-07:00")
