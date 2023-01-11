@@ -2,19 +2,28 @@ from SharedDataSingleton import SharedDataSingleton
 import datetime
 import json as json
 from Utility import Utility
+import UtilityWriteFile
 
 class EmployeeHours:
 
     def __init__(self):
 
         self.singletonCommonData = SharedDataSingleton.getInstance()
-        self.EmployeeDateHours = self.__getEmployeeDateHours()
-        self.employeeData = self.__getEmployeeData()
-        # self.teamMemberIDNameDic = self.__getTeamMember()
-        # print(self.teamMemberIDNameDic)
+        self.employeeDateHoursJSON = self.__getEmployeeDateHours()
+        self.employeeFirstLastNameList = []
+        self.employeeHoursDataByDate = self.__getEmployeeData()
+        # print(self.employeeHoursDataByDate)
+        self.writeToFile(self.employeeHoursDataByDate, self.employeeFirstLastNameList)
     
     
     def __getEmployeeDateHours(self):
+
+        """
+            __getEmployeeDateHours gets the employee data from the API and dumps the data into a file for inspection.
+            
+            :param _ :
+            :return: JSON object from API
+        """ 
 
         startDate = datetime.datetime.strptime(self.singletonCommonData.pacificStartDate, "%m-%d-%Y")
         endDate = datetime.datetime.strptime(self.singletonCommonData.pacificEndDate, "%m-%d-%Y")
@@ -47,7 +56,16 @@ class EmployeeHours:
 
     def __getEmployeeData(self):
 
-        shifts = self.EmployeeDateHours["shifts"]
+        """
+            __getEmployeeData extracts employee name, hours and ID from the JSON object and stores data into two sepaprate
+            dictionaries. The data stored in the dictionary is in the format:
+            employeeHoursDataByDate - Date: {ID, name, hours worked}
+            
+            :param _ :
+            :return: employeeHoursDataByDate
+        """
+
+        shifts = self.employeeDateHoursJSON["shifts"]
 
         employeeHoursDataByID = {}
         employeeHoursDataByDate = {}
@@ -60,24 +78,15 @@ class EmployeeHours:
             # Getting the date
             date = Utility.convertUTCDateToPST(shift["start_at"])
             
+            # Getting the employee information per shift.
+            firstLast = self.__getTeamMember(shift["team_member_id"])
+            name_pos = f"{firstLast[0]} {firstLast[1]} - {shift['wage']['title']}"
 
-            # Employee Data by ID
-            if employeeHoursDataByID.get(shift["team_member_id"], None) == None:
-                firstLast = self.__getTeamMember(shift["team_member_id"])
-                employeeHoursDataByID[shift["team_member_id"]] = {
-                    "firstName" : firstLast[0],
-                    "lastName" : firstLast[1],
-                    "position" : shift["wage"]["title"],
-                    "hours" : hours
-                }
+            # List of name - position for keeping track.
+            if name_pos not in self.employeeFirstLastNameList:
+                self.employeeFirstLastNameList.append(name_pos)
 
-            elif employeeHoursDataByID.get(shift["team_member_id"], None) != None:
-                data = employeeHoursDataByID[shift["team_member_id"]]
-                data["hours"] = round((data["hours"] + hours), 2)
-                employeeHoursDataByID[shift["team_member_id"]] = data
-
-            # Employee Data by Date
-
+            # If the data is encountered first time in the dictionary
             if employeeHoursDataByDate.get(date, None) == None:
                 employeeHoursDataByDate[date] = [
 
@@ -90,6 +99,7 @@ class EmployeeHours:
                     }
                 ]
             
+            # If the date is already present, then append the employee.
             elif employeeHoursDataByDate.get(date, None) != None:
                 data = employeeHoursDataByDate[date]
                 data.append(
@@ -103,12 +113,16 @@ class EmployeeHours:
                 )
                 employeeHoursDataByDate[date] = data
 
-        print(employeeHoursDataByDate.keys())
-
-        return employeeHoursDataByID, employeeHoursDataByDate
+        return employeeHoursDataByDate
 
     def __getTeamMember(self, id):
 
+        """
+            __getTeamMember gets the team member information JSON and extracts the first and last name.
+        
+            :param _ :
+            :return: (first name, last name)
+        """
         
         result = self.singletonCommonData.client.team.retrieve_team_member(
             team_member_id = id
@@ -122,3 +136,6 @@ class EmployeeHours:
 
         return firstLast
 
+    def writeToFile(self, employeeHoursDataByDate, employeeFirstLastNameList):
+
+        UtilityWriteFile.UtilityWriteFile.writeEmployeeHours(employeeHoursDataByDate, employeeFirstLastNameList)

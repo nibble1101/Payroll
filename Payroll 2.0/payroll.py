@@ -40,9 +40,9 @@ class Payroll:
         
 
         # EXTRACTING TIPS AND GRATUITY
-        self.generateTip(orders_Json_list)
-        self.generateGratuity(orders_Json_list)
+        # self.generateTip(orders_Json_list)
+        # self.generateGratuity(orders_Json_list)
 
-        self.tip_dic, self.gratuity_dic = UtilityWriteFile.writeTipsGratuity(self.tip_dic, self.gratuity_dic)
+        # self.tip_dic, self.gratuity_dic = UtilityWriteFile.writeTipsGratuity(self.tip_dic, self.gratuity_dic)
 
         obj = EmployeeHours()

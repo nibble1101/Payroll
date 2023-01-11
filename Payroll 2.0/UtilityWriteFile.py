@@ -1,4 +1,5 @@
 import csv
+import pandas as pd
 
 class UtilityWriteFile:
 
@@ -63,3 +64,27 @@ class UtilityWriteFile:
             writer.writerows([tipLi, gratuityLi])
 
             return tip_dic,gratuity_dic
+
+    @staticmethod
+    def writeEmployeeHours(employeeHoursDataByDate, employeeFirstLastNameList):
+
+        dates = sorted(list(employeeHoursDataByDate.keys()))
+        name_pos = sorted(employeeFirstLastNameList)
+
+        # data = []
+        # for i in range(len(dates)):
+        #     li = []
+        #     for j in range(len(name_pos)):
+        #         li.append(0.0)
+        #     data.append(li)
+
+        
+        df = pd.DataFrame(columns=name_pos, index=dates)
+
+        for date, employeeHours in employeeHoursDataByDate.items():
+
+            for employee in employeeHours:
+                temp_name_pos = f"{employee['firstName']} {employee['lastName']} - {employee['position']}"
+                df.loc[date, temp_name_pos] = employee['hours']
+
+        df.to_csv('employeeHours.csv')
