@@ -66,3 +66,96 @@ class DataDisplayWindow(QObject):
         self.applicationWindow.scrollQVBoxLayout.addWidget(self.applicationWindow.pointsQTableWidget)
         self.applicationWindow.scrollQVBoxLayout.addWidget(self.applicationWindow.hoursQTableWidget)
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from PyQt5.QtCore import QObject, pyqtSignal
+import PyQt5.QtCore as QtCore
+
+class Worker(QObject):
+
+    finished = pyqtSignal()
+    newDataPointSignal = pyqtSignal(tuple)
+    plotEndBitSignal = pyqtSignal(bool)
+
+
+    def __init__(self, globalObject):
+        super(Worker, self).__init__()
+
+        self.globalObject = globalObject
+
+
+    def run(self):
+
+        """Long running task"""
+
+        # Setting the timer after which the graph will be updated.
+
+        self.timer = QtCore.QTimer()
+        self.timer.setInterval(self.globalObject.delay)
+        self.timer.timeout.connect(self.getNextPoint)
+        self.timer.start()
+
+        if not self.timer.isActive():
+            self.finished.emit()
+
+    def getNextPoint(self):
+
+        """
+            Gets the next data point from the row of the file.
+            :param {_ : }
+            :return -> None
+        """
+        # Generator for getting the next data point
+        if self.globalObject.pauseBit == False and self.globalObject.startBit == True:
+            dataPoint = self.globalObject.dataObj.__next__()
+
+            if dataPoint != None:
+
+                if dataPoint == False:
+
+                    # self.globalObject.startBit = False
+                    self.plotEndBitSignal.emit(False)
+                    print("No more data points to read")
+                    self.timer.stop()
+                    self.finished.emit()
+                else:
+                    self.newDataPointSignal.emit(dataPoint)
+
+            else:
+                self.getNextPoint()
+
+        
+        
