@@ -26,8 +26,8 @@ class OrderJsonObj:
 
             if result.is_success():
                 if result.body != {}:
-                    with open("orderAPI.json", "w") as outfile:
-                        json.dump(result.body, outfile, indent = 4)
+                    # with open("orderAPI.json", "w") as outfile:
+                    #     json.dump(result.body, outfile, indent = 4)
                     
                     # APPENDING THE ORDER JSON OBJECT WITH TIP AND GRATUITY INFO.
                     orders_Json_list.append(result.body)

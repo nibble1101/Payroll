@@ -2,9 +2,8 @@ import sys
 
 from PyQt5.QtCore import QObject, QSize, pyqtSignal
 from PyQt5.QtGui import QPixmap
-from PyQt5 import QtWidgets, QtGui
+from PyQt5 import QtWidgets
 from PyQt5.QtCore import QSize, Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QSizePolicy
 
 class LogInWindow(QObject):
 
@@ -25,7 +24,7 @@ class LogInWindow(QObject):
     def initializeUIComponents(self):
 
         # Logo
-        self.pixmap = QPixmap('logo.png')
+        self.pixmap = QPixmap('../source/logo.png')
         imageHeight = self.pixmap.height()
         imageWidth = self.pixmap.width()
 

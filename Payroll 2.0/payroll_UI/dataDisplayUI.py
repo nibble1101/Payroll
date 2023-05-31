@@ -7,6 +7,7 @@ from PyQt5.QtCore import QSize, Qt
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QSizePolicy
 
 
+
 class DataDisplayWindow(QObject):
 
     def __init__(self, applicationWindow, startWidth, startHeight, width, height):

@@ -19,7 +19,7 @@ class OrderID:
         singletonCommonData = SharedDataSingleton.getInstance()
 
         # LIST OF ORDER IDs
-        listOfOrders = []
+        list_of_order_id_list = []
 
         # INITIAL BEGIN TIME WILL BE THE BEGIN DATE ENTERED BY THE USER.
         begin = datetime.datetime.strptime(singletonCommonData.startDate, "%Y-%m-%dT%H:%M:%S%z")
@@ -42,7 +42,7 @@ class OrderID:
                     json_dict_object = result.body
 
                     # EXTRACT THE LIST OF THE ORDER IDs FROM THE JSON OJECT USING THE UTILITY FUNCTION.
-                    listOfOrders.append(JsonParser.extractOrderList(json_dict_object))
+                    list_of_order_id_list.append(JsonParser.extractOrderIDList(json_dict_object))
 
             elif result.is_error():
                 print(result.errors)
@@ -51,4 +51,4 @@ class OrderID:
             begin = begin + datetime.timedelta(hours=24)
             end = end + datetime.timedelta(hours=24)
 
-        return listOfOrders
+        return list_of_order_id_list

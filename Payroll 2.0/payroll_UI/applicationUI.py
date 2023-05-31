@@ -1,10 +1,19 @@
-from PyQt5 import QtWidgets, QtCore
+import sys
+
+# adding other directories to the system path
+sys.path.append('../source')
+sys.path.append('../payroll_engine')
+sys.path.append('../meta_data_dump')
+
+
+from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import (
     QApplication,
 )
 from logInWindowUI import LogInWindow
 from payrollWindowUI import PayrollWindow
 from dataDisplayUI import DataDisplayWindow
+
 
 class Resempay(QtWidgets.QMainWindow):
     def __init__(self, width, height):

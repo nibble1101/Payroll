@@ -2,9 +2,12 @@ import sys
 
 from PyQt5.QtCore import QObject, pyqtSignal
 from PyQt5.QtGui import QPixmap
-from PyQt5 import QtWidgets, QtGui
-from PyQt5.QtCore import QSize, Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QSizePolicy
+from PyQt5 import QtWidgets
+from PyQt5.QtCore import Qt
+from SharedDataSingleton import SharedDataSingleton
+from restaurant import Restaurant
+from Utility import Utility
+from payroll import Payroll
 
 class PayrollWindow(QObject):
 
@@ -26,11 +29,11 @@ class PayrollWindow(QObject):
         
         # Loading Logos:
 
-        self.appLogo = QPixmap('logo.png')
+        self.appLogo = QPixmap('../source/logo.png')
 
-        self.meeshaLogo = QPixmap('meeshaLogo.png')
+        self.meeshaLogo = QPixmap('../source/meeshaLogo.png')
 
-        self.KricketClubLogo = QPixmap('kricketClubLogo.png')
+        self.KricketClubLogo = QPixmap('../source/kricketClubLogo.png')
 
 
         # Central Widget
@@ -44,6 +47,7 @@ class PayrollWindow(QObject):
         # Generate Payroll Push Button
         self.applicationWindow.generateQPushButton = QtWidgets.QPushButton()
         self.applicationWindow.generateQPushButton.setText("Generate Payroll")
+        self.applicationWindow.generateQPushButton.setEnabled(False)
         
         # Container for Restaurant logo and Date input and Generate button widgets
         self.applicationWindow.logoRestaurantDateGenerateButtonQWidget = QtWidgets.QWidget()
@@ -127,28 +131,52 @@ class PayrollWindow(QObject):
     def connectUIMethods(self):
 
         self.applicationWindow.restaurantQComboBox.currentIndexChanged.connect(lambda: self.selectRestaurantAction())
-        self.applicationWindow.generateQPushButton.clicked.connect(lambda: self.emitdataDisplayWindowSignal())
+        self.applicationWindow.generateQPushButton.clicked.connect(lambda: self.invokePayrollEngine())
 
     def selectRestaurantAction(self):
 
         restaurantOption = self.applicationWindow.restaurantQComboBox.currentText()
 
         if restaurantOption == "Meesha":
+            self.applicationWindow.generateQPushButton.setEnabled(True)
             # self.meeshaLogo = self.meeshaLogo.scaled(self.applicationWindow.restaurantLogoQLabel.width(), self.applicationWindow.restaurantLogoQLabel.height())
             self.applicationWindow.restaurantLogoQLabel.setPixmap(self.meeshaLogo)
             self.applicationWindow.restaurantLogoQLabel.setAlignment(Qt.AlignCenter)
 
         if restaurantOption == "Kricket Club":
+            self.applicationWindow.generateQPushButton.setEnabled(True)
             self.applicationWindow.restaurantLogoQLabel.setPixmap(self.KricketClubLogo)
             self.applicationWindow.restaurantLogoQLabel.setAlignment(Qt.AlignCenter)
             
-            
-
         if restaurantOption == "Select Restaurant":
+            self.applicationWindow.generateQPushButton.setEnabled(False)
             self.applicationWindow.restaurantLogoQLabel.setPixmap(self.appLogo)
             self.applicationWindow.restaurantLogoQLabel.setAlignment(Qt.AlignCenter)
 
+    def invokePayrollEngine(self):
+
+        start_date = str(self.applicationWindow.startDateQDateEdit.selectedDate().toPyDate().strftime("%m-%d-%Y"))
+        end_date = str(self.applicationWindow.endDateQDateEdit.selectedDate().toPyDate().strftime("%m-%d-%Y"))
+        restaurant_name = self.applicationWindow.restaurantQComboBox.currentText()
+
+        restaurant_name = restaurant_name.upper()
+        # Replace spaces with underscores
+        restaurant_name = restaurant_name.replace(" ", "_")
+
+        # Converting the dates to RFC339 Format
+        start_date, end_date = Utility.convertDateToRFC3339(start_date, end_date)
+
+        # Creating singleton class for the first time.
+        obj = SharedDataSingleton(start_date, end_date, Restaurant(restaurant_name))
+        obj.pacificStartDate = start_date
+        obj.pacificEndDate = end_date
+
+        payroll_obj = Payroll()
+
+        payroll_obj.generatePayroll()
+
     def emitdataDisplayWindowSignal(self):
+
         self.signal.emit()
 
 

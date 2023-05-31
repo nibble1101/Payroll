@@ -1,48 +1,39 @@
 import sys
-import datetime
-from pytz import timezone
-import pytz
+from restaurant import Restaurant
+from payroll import Payroll
+from Utility import Utility
+from SharedDataSingleton import SharedDataSingleton
+
 
 """
-python3 main.py Kricket 06-10-2022 06-10-2022
+python3 main.py Kricket 07-04-2022 07-18-2022
+
+# sys.argv[1]           ------>         Restaurant name
+# sys.argv[2]           ------>         start_date
+# sys.argv[3]           ------>         end_date
 
 """
 
-# CONVERTING THE DATE FORMAT FROM RFC3999 TO PST
-# if __name__ == "__main__":
+class Main:
 
-#     start_date = "2022-06-11T02:49:36Z"
+    @staticmethod
+    def main():
 
-#     date = datetime.datetime.strptime(start_date, "%Y-%m-%dT%H:%M:%Sz")
-    
+        if __name__ == "__main__":
+            
+            # FORMATTING THE START DATE AND END DATE
+            start_date, end_date = Utility.convertDateToRFC3339(sys.argv[2], sys.argv[3])
+            # start_date, end_date = Utility.convertDateToRFC3339('07-04-2022', '07-18-2022')
+            
+            # FIRST TIME CREATING A SHARED DATA SINGLETON OBJECT
+            obj = SharedDataSingleton(start_date, end_date,Restaurant(sys.argv[1]))
+            obj.pacificStartDate = sys.argv[2]
+            obj.pacificEndDate = sys.argv[3]
+            # SharedDataSingleton(start_date, end_date,Restaurant('Kricket'))
+            
+            payroll_obj = Payroll()
 
-#     pst_tz = timezone('US/Pacific')
+            payroll_obj.generatePayroll()
 
-#     pacific_now = datetime.datetime.now(pst_tz)
-#     offset = -1 * (pacific_now.utcoffset().total_seconds()/60/60)
 
-#     print(offset)
-#     date = date - datetime.timedelta(hours=offset)
-
-#     print(date.strftime("%Y-%m-%d"))
-
-if __name__ == "__main__":
-
-    start_date = "2022-06-11T00:00:00Z"
-
-    date = datetime.datetime.strptime(start_date, "%Y-%m-%dT%H:%M:%Sz")
-
-    for i in range(0,14):
-        date = date + datetime.timedelta(hours=23, minutes=59)
-        print(date)
-    
-
-    # pst_tz = timezone('US/Pacific')
-
-    # pacific_now = datetime.datetime.now(pst_tz)
-    # offset = -1 * (pacific_now.utcoffset().total_seconds()/60/60)
-
-    # print(offset)
-    # date = date - datetime.timedelta(hours=offset)
-
-    # print(date.strftime("%Y-%m-%d"))
+Main.main()

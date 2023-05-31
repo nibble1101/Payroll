@@ -1,7 +1,3 @@
-from square.client import Client
-
-import JsonExtractor as jp
-
 from Tips import Tips
 from Gratuity import Gratuity
 
@@ -10,6 +6,13 @@ from UtilityWriteFile import UtilityWriteFile
 from OrderIdList import OrderID
 
 from employeeHours import EmployeeHours
+
+
+# Plan of action for getting tips and gratuity:
+# 1. First get the list of all the order IDs per day
+# 2. Get the JSON list of all the orders from the orderID list
+# 3. Parse the JSON list and calculate the tip and Gratuity
+
 
 class Payroll:
 
@@ -34,9 +37,9 @@ class Payroll:
         
         """
         # GETTING THE LIST OF THE ORDER IDs IN A DAY.
-        list_of_order_id_list = OrderID.getListOfOrderId()
+        listOfListOfOrderIDs_perDay = OrderID.getListOfOrderId()
         # GETS THE ORDER LIST AS A LIST OF JSON OBJECT OF EACH DATE.
-        orders_Json_list = OrderJsonObj.getOrderJsonObj(list_of_order_id_list)
+        orders_Json_list = OrderJsonObj.getOrderJsonObj(listOfListOfOrderIDs_perDay)
         
 
         # EXTRACTING TIPS AND GRATUITY
